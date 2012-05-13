@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module>
-  <!-- Inherit our applications main module.                      -->
-  <inherits name='br.net.meditec.Meditec' />
-
-  <!-- Specify the path to any remote services.                   -->
-  <servlet path="/Meditec/greet" class="br.net.meditec.server.GreetingServiceImpl" />
-
-</module>
