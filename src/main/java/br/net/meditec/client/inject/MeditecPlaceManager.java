@@ -22,7 +22,6 @@ public class MeditecPlaceManager extends PlaceManagerImpl {
     this.defaultPlaceRequest = new PlaceRequest(defaultNameToken);
   }
 
-
   public void revealDefaultPlace() {
     revealPlace(defaultPlaceRequest);
   }

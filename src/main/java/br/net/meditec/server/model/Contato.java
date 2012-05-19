@@ -1,9 +1,17 @@
 package br.net.meditec.server.model;
 
+import org.apache.bval.constraints.Email;
+
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 /**
  * @author Carlos A Becker
@@ -15,27 +23,41 @@ public class Contato implements Bean {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
 
+  @NotNull(message = "Nome null")
+  @Size(min = 6, max = 90, message = "Nome deve ter entre 6 e 90 caracteres.")
   private String nome;
+
+  @Size(min = 3, max = 30, message = "Sobrenome deve ter entre 3 e 30 caracteres.")
   private String sobrenome;
+
+  @NotNull(message = "Numero nao pode ser null.")
   private String numero;
+
+  @Email(message = "Email invalido.")
   private String email;
+
+  @Temporal(value = TemporalType.DATE)
+  private Date dataNascimento;
 
   public Contato() {
   }
 
-  public Contato(String nome, String sobrenome, String numero, String email) {
+  public Contato(String nome, String sobrenome, String numero, String email, Date dataNascimento) {
     this.nome = nome;
     this.sobrenome = sobrenome;
     this.numero = numero;
     this.email = email;
+    this.dataNascimento = dataNascimento;
   }
 
-  public Contato(Long id, String email, String numero, String sobrenome, String nome) {
+  public Contato(Long id, String email, String numero, String sobrenome, String nome,
+                 Date dataNascimento) {
     this.email = email;
     this.numero = numero;
     this.sobrenome = sobrenome;
     this.nome = nome;
     this.id = id;
+    this.dataNascimento = dataNascimento;
   }
 
   public void setId(Long id) {
@@ -75,6 +97,14 @@ public class Contato implements Bean {
     return nome;
   }
 
+  public Date getDataNascimento() {
+    return dataNascimento;
+  }
+
+  public void setDataNascimento(Date dataNascimento) {
+    this.dataNascimento = dataNascimento;
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) {
@@ -86,6 +116,10 @@ public class Contato implements Bean {
 
     Contato contato = (Contato) o;
 
+    if (dataNascimento != null ? !dataNascimento.equals(contato.dataNascimento)
+                               : contato.dataNascimento != null) {
+      return false;
+    }
     if (email != null ? !email.equals(contato.email) : contato.email != null) {
       return false;
     }
@@ -112,6 +146,19 @@ public class Contato implements Bean {
     result = 31 * result + (sobrenome != null ? sobrenome.hashCode() : 0);
     result = 31 * result + (numero != null ? numero.hashCode() : 0);
     result = 31 * result + (email != null ? email.hashCode() : 0);
+    result = 31 * result + (dataNascimento != null ? dataNascimento.hashCode() : 0);
     return result;
+  }
+
+  @Override
+  public String toString() {
+    return "Contato{" +
+           "dataNascimento=" + dataNascimento +
+           ", id=" + id +
+           ", nome='" + nome + '\'' +
+           ", sobrenome='" + sobrenome + '\'' +
+           ", numero='" + numero + '\'' +
+           ", email='" + email + '\'' +
+           '}';
   }
 }

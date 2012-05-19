@@ -11,13 +11,13 @@ public class ContatoConverter extends Converter<Contato, ContatoDTO> {
   @Override
   public Contato toBean(ContatoDTO dto) {
     return new Contato(dto.getId(), dto.getEmail(), dto.getNumero(), dto.getSobrenome(),
-                       dto.getNome());
+                       dto.getNome(), dto.getDataNascimento());
 
   }
 
   @Override
   public ContatoDTO toDTO(Contato bean) {
     return new ContatoDTO(bean.getId(), bean.getEmail(), bean.getNumero(), bean.getSobrenome(),
-                          bean.getNome());
+                          bean.getNome(), bean.getDataNascimento());
   }
 }

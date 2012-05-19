@@ -3,6 +3,8 @@ package br.net.meditec.client.inject;
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.gwtplatform.mvp.client.gin.DefaultModule;
 
+import br.net.meditec.client.telas.contato.CadastroContatoPresenter;
+import br.net.meditec.client.telas.contato.CadastroContatoViewImpl;
 import br.net.meditec.client.telas.home.HomePresenter;
 import br.net.meditec.client.telas.home.HomeViewImpl;
 import br.net.meditec.client.telas.principal.PrincipalPresenter;
@@ -21,8 +23,14 @@ public class PresenterModule extends AbstractPresenterModule {
 
     bindPresenter(PrincipalPresenter.class, PrincipalPresenter.PrincipalView.class,
                   PrincipalViewImpl.class, PrincipalPresenter.PrincipalProxy.class);
+
     bindPresenter(HomePresenter.class, HomePresenter.HomeView.class, HomeViewImpl.class,
                   HomePresenter.HomeProxy.class);
+
+    bindPresenter(CadastroContatoPresenter.class,
+                  CadastroContatoPresenter.CadastroContatoView.class,
+                  CadastroContatoViewImpl.class,
+                  CadastroContatoPresenter.CadastroContatoProxy.class);
   }
 
 }

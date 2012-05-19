@@ -4,6 +4,8 @@ import com.google.inject.Injector;
 
 import org.junit.Test;
 
+import java.util.Date;
+
 import br.net.meditec.server.dao.ContatoDao;
 import br.net.meditec.server.model.Contato;
 
@@ -24,7 +26,8 @@ public class ContatoDaoTest {
 
   @Test
   public void testSave() throws Exception {
-    Contato contato = new Contato("Carlos Alexandro", "Becker", "9903-4343", "caarlos0@gmail.com");
+    Contato contato = new Contato("Carlos Alexandro", "Becker", "9903-4343", "caarlos0@gmail.com",
+                                  new Date());
     dao.save(contato);
     assertNotNull(contato.getId());
   }

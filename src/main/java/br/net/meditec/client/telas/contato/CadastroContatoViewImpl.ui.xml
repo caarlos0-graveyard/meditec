@@ -1,0 +1,65 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b='urn:import:com.github.gwtbootstrap.client.ui'
+             xmlns:b2='urn:import:com.github.gwtbootstrap.datepicker.client.ui'>
+    <g:HTMLPanel>
+
+        <b:Section target="cadastroContato">
+            <b:Well>
+                <b:Heading size="1" subtext="adicione seus contatos ao banco de dados.">Cadastro de
+                    Contatos
+                </b:Heading>
+                <hr/>
+                <b:Form type="HORIZONTAL" ui:field="form">
+                    <b:Fieldset>
+
+                        <b:ControlGroup>
+                            <b:ControlLabel>Nome</b:ControlLabel>
+                            <b:Controls>
+                                <b:TextBox alternateSize="XLARGE" placeholder="João Francisco"
+                                           ui:field="nome"></b:TextBox>
+                            </b:Controls>
+                        </b:ControlGroup>
+
+                        <b:ControlGroup>
+                            <b:ControlLabel>Sobrenome</b:ControlLabel>
+                            <b:Controls>
+                                <b:TextBox alternateSize="XLARGE" placeholder="da Silva"
+                                           ui:field="sobrenome"></b:TextBox>
+                            </b:Controls>
+                        </b:ControlGroup>
+
+                        <b:ControlGroup>
+                            <b:ControlLabel>Email</b:ControlLabel>
+                            <b:Controls>
+                                <b:TextBox alternateSize="XLARGE"
+                                           placeholder="joaodasilva@gmail.com"
+                                           ui:field="email"></b:TextBox>
+                            </b:Controls>
+                        </b:ControlGroup>
+
+                        <b:ControlGroup>
+                            <b:ControlLabel>Telefone</b:ControlLabel>
+                            <b:Controls>
+                                <b:TextBox alternateSize="XLARGE"
+                                           placeholder="+55 (45) 1234-5678"
+                                           ui:field="telefone"></b:TextBox>
+                            </b:Controls>
+                        </b:ControlGroup>
+                        <b:ControlGroup>
+                            <b:ControlLabel>Data de Nascimento</b:ControlLabel>
+                            <b:Controls>
+                                <b2:DateBox format="dd/mm/yyyy" autoClose="true" ui:field="dataNascimento" />
+                            </b:Controls>
+                        </b:ControlGroup>
+                        <b:FormActions>
+                            <b:SubmitButton type="PRIMARY">Salvar</b:SubmitButton>
+                            <b:Button>Cancelar</b:Button>
+                        </b:FormActions>
+                    </b:Fieldset>
+                </b:Form>
+            </b:Well>
+        </b:Section>
+
+    </g:HTMLPanel>
+</ui:UiBinder>

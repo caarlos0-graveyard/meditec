@@ -11,6 +11,6 @@ public class GuiceServletConfig extends GuiceServletContextListener {
 
   @Override
   protected Injector getInjector() {
-    return Guice.createInjector(new MeditecServletModule(), new HandlerModule());
+    return Guice.createInjector(new MeditecServletModule(), new MeditecHandlerModule(), new ConverterModule());
   }
 }

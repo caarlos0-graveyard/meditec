@@ -6,7 +6,7 @@ package br.net.meditec.client.inject;
 public class Tokens {
 
   public static final String home = "home";
-  public static final String cadastroContato = "cadastrar_contato";
+  public static final String cadastroContato = "cadastroContato";
 
   public static String getHome() {
     return home;

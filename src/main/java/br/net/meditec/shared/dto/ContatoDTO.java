@@ -1,5 +1,7 @@
 package br.net.meditec.shared.dto;
 
+import java.util.Date;
+
 /**
  * @author: Carlos A Becker
  */
@@ -10,23 +12,28 @@ public class ContatoDTO implements DTO {
   private String sobrenome;
   private String numero;
   private String email;
+  private Date dataNascimento;
 
   public ContatoDTO() {
   }
 
-  public ContatoDTO(String nome, String sobrenome, String numero, String email) {
+  public ContatoDTO(String nome, String sobrenome, String numero, String email,
+                    Date dataNascimento) {
     this.nome = nome;
     this.sobrenome = sobrenome;
     this.numero = numero;
     this.email = email;
+    this.dataNascimento = dataNascimento;
   }
 
-  public ContatoDTO(Long id, String email, String numero, String sobrenome, String nome) {
+  public ContatoDTO(Long id, String email, String numero, String sobrenome, String nome,
+                    Date dataNascimento) {
     this.email = email;
     this.numero = numero;
     this.sobrenome = sobrenome;
     this.nome = nome;
     this.id = id;
+    this.dataNascimento = dataNascimento;
   }
 
   public void setId(Long id) {
@@ -69,6 +76,14 @@ public class ContatoDTO implements DTO {
     this.email = email;
   }
 
+  public Date getDataNascimento() {
+    return dataNascimento;
+  }
+
+  public void setDataNascimento(Date dataNascimento) {
+    this.dataNascimento = dataNascimento;
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) {
@@ -78,21 +93,25 @@ public class ContatoDTO implements DTO {
       return false;
     }
 
-    ContatoDTO contato = (ContatoDTO) o;
+    ContatoDTO that = (ContatoDTO) o;
 
-    if (email != null ? !email.equals(contato.email) : contato.email != null) {
+    if (dataNascimento != null ? !dataNascimento.equals(that.dataNascimento)
+                               : that.dataNascimento != null) {
       return false;
     }
-    if (id != null ? !id.equals(contato.id) : contato.id != null) {
+    if (email != null ? !email.equals(that.email) : that.email != null) {
       return false;
     }
-    if (nome != null ? !nome.equals(contato.nome) : contato.nome != null) {
+    if (id != null ? !id.equals(that.id) : that.id != null) {
       return false;
     }
-    if (numero != null ? !numero.equals(contato.numero) : contato.numero != null) {
+    if (nome != null ? !nome.equals(that.nome) : that.nome != null) {
       return false;
     }
-    if (sobrenome != null ? !sobrenome.equals(contato.sobrenome) : contato.sobrenome != null) {
+    if (numero != null ? !numero.equals(that.numero) : that.numero != null) {
+      return false;
+    }
+    if (sobrenome != null ? !sobrenome.equals(that.sobrenome) : that.sobrenome != null) {
       return false;
     }
 
@@ -106,17 +125,19 @@ public class ContatoDTO implements DTO {
     result = 31 * result + (sobrenome != null ? sobrenome.hashCode() : 0);
     result = 31 * result + (numero != null ? numero.hashCode() : 0);
     result = 31 * result + (email != null ? email.hashCode() : 0);
+    result = 31 * result + (dataNascimento != null ? dataNascimento.hashCode() : 0);
     return result;
   }
 
   @Override
   public String toString() {
     return "ContatoDTO{" +
-           "email='" + email + '\'' +
+           "dataNascimento=" + dataNascimento +
            ", id=" + id +
            ", nome='" + nome + '\'' +
            ", sobrenome='" + sobrenome + '\'' +
            ", numero='" + numero + '\'' +
+           ", email='" + email + '\'' +
            '}';
   }
 }
