@@ -1,0 +1,12 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b='urn:import:com.github.gwtbootstrap.client.ui'>
+    <g:HTMLPanel>
+        <b:Section target="home">
+            <b:Hero>
+                <b:Heading size="2">Bem Vindo ao Meditec</b:Heading>
+                <b:Heading size="4">aaaasdasdasd asda sdas asd asd asdasd sad asd</b:Heading>
+            </b:Hero>
+        </b:Section>
+    </g:HTMLPanel>
+</ui:UiBinder>

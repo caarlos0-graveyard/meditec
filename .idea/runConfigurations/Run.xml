@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+    <module name="meditec" />
+    <option name="VM_PARAMETERS" value="-Xmx700m" />
+    <option name="RUN_PAGE" value="Meditec.html" />
+    <option name="OPEN_IN_BROWSER" value="false" />
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method />
+  </configuration>
+</component>

@@ -25,12 +25,7 @@ import br.net.meditec.server.model.Contato;
 public class ContatoDaoTest {
 
 //  @Inject
-  Injector i = Guice.createInjector(new PersistenceModule());
-
-  {
-    PersistService service = i.getInstance(PersistService.class);
-    service.start();
-  }
+  Injector i = PersistenceTestModule.getInjector();
 
   private ContatoDao dao = i.getInstance(ContatoDao.class);
 

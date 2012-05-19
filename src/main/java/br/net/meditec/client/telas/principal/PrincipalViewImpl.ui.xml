@@ -1,0 +1,19 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b='urn:import:com.github.gwtbootstrap.client.ui'>
+    <g:HTMLPanel>
+
+        <b:ResponsiveNavbar position="TOP" scrollspy="true">
+            <b:Brand href="#">Meditec</b:Brand>
+            <b:NavCollapse>
+                <b:Nav>
+
+                </b:Nav>
+            </b:NavCollapse>
+        </b:ResponsiveNavbar>
+
+        <b:FluidContainer ui:field="sections"/>
+
+
+    </g:HTMLPanel>
+</ui:UiBinder>

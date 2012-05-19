@@ -25,4 +25,4 @@ bin/*
 .project
 .classpath
 .settings
-maven
+maven/
