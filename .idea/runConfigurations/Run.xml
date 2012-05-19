@@ -3,15 +3,16 @@
     <module name="meditec" />
     <option name="VM_PARAMETERS" value="-Xmx700m" />
     <option name="RUN_PAGE" value="Meditec.html" />
+    <option name="GWT_MODULE" value="br.net.meditec.Meditec" />
     <option name="OPEN_IN_BROWSER" value="false" />
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Run" />
     <method>
-      <option name="BuildArtifacts" enabled="true">
+      <option name="BuildArtifacts" enabled="false">
         <artifact name="meditec:war" />
         <artifact name="meditec:war exploded" />
       </option>
-      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="process-sources" />
+      <option name="Maven.BeforeRunTask" enabled="false" file="$PROJECT_DIR$/pom.xml" goal="process-sources" />
     </method>
   </configuration>
 </component>
