@@ -1,20 +1,13 @@
 package br.net.meditec.client;
 
-import com.google.inject.Guice;
 import com.google.inject.Injector;
-import com.google.inject.persist.PersistService;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.nnsoft.guice.junice.JUniceRunner;
-import org.nnsoft.guice.junice.annotation.GuiceModules;
-import static org.junit.Assert.*;
-
-import javax.inject.Inject;
 
 import br.net.meditec.server.dao.ContatoDao;
-import br.net.meditec.server.inject.PersistenceModule;
 import br.net.meditec.server.model.Contato;
+
+import static org.junit.Assert.assertNotNull;
 
 /**
  * @author Carlos A Becker
@@ -24,7 +17,7 @@ import br.net.meditec.server.model.Contato;
 //@GuiceModules(modules = PersistenceTestModule.class)
 public class ContatoDaoTest {
 
-//  @Inject
+  //  @Inject
   Injector i = PersistenceTestModule.getInjector();
 
   private ContatoDao dao = i.getInstance(ContatoDao.class);

@@ -1,18 +1,19 @@
 package br.net.meditec.client.inject;
 
 /**
- * Created with IntelliJ IDEA.
- * User: carlos
- * Date: 18/05/12
- * Time: 21:25
- * To change this template use File | Settings | File Templates.
+ * @author: Carlos A Becker
  */
 public class Tokens {
 
-    public static final String home = "home";
+  public static final String home = "home";
+  public static final String cadastroContato = "cadastrar_contato";
 
-    public static String getHome() {
-        return home;
-    }
+  public static String getHome() {
+    return home;
+  }
+
+  public static String getCadastroContato() {
+    return cadastroContato;
+  }
 }
 

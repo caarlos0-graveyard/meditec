@@ -14,8 +14,7 @@ public class PersistenceInitializer {
   private PersistService service;
 
   public void init() {
-    if(service == null)
-    {
+    if (service == null) {
       System.out.println("FUUU");
       return;
     }

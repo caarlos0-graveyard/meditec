@@ -4,7 +4,7 @@
     <g:HTMLPanel>
 
         <b:ResponsiveNavbar position="TOP" scrollspy="true">
-            <b:Brand href="#">Meditec</b:Brand>
+            <b:Brand>Meditec</b:Brand>
             <b:NavCollapse>
                 <b:Nav>
 
@@ -13,7 +13,6 @@
         </b:ResponsiveNavbar>
 
         <b:FluidContainer ui:field="sections"/>
-
 
     </g:HTMLPanel>
 </ui:UiBinder>

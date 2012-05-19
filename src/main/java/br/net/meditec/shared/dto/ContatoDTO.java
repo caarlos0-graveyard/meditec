@@ -1,36 +1,27 @@
-package br.net.meditec.server.model;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+package br.net.meditec.shared.dto;
 
 /**
- * @author Carlos A Becker
+ * @author: Carlos A Becker
  */
-@Entity
-public class Contato implements Bean {
+public class ContatoDTO implements DTO {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
-
   private String nome;
   private String sobrenome;
   private String numero;
   private String email;
 
-  public Contato() {
+  public ContatoDTO() {
   }
 
-  public Contato(String nome, String sobrenome, String numero, String email) {
+  public ContatoDTO(String nome, String sobrenome, String numero, String email) {
     this.nome = nome;
     this.sobrenome = sobrenome;
     this.numero = numero;
     this.email = email;
   }
 
-  public Contato(Long id, String email, String numero, String sobrenome, String nome) {
+  public ContatoDTO(Long id, String email, String numero, String sobrenome, String nome) {
     this.email = email;
     this.numero = numero;
     this.sobrenome = sobrenome;
@@ -46,6 +37,13 @@ public class Contato implements Bean {
     return this.id;
   }
 
+  public String getNome() {
+    return nome;
+  }
+
+  public void setNome(String nome) {
+    this.nome = nome;
+  }
 
   public String getSobrenome() {
     return sobrenome;
@@ -71,10 +69,6 @@ public class Contato implements Bean {
     this.email = email;
   }
 
-  public String getNome() {
-    return nome;
-  }
-
   @Override
   public boolean equals(Object o) {
     if (this == o) {
@@ -84,7 +78,7 @@ public class Contato implements Bean {
       return false;
     }
 
-    Contato contato = (Contato) o;
+    ContatoDTO contato = (ContatoDTO) o;
 
     if (email != null ? !email.equals(contato.email) : contato.email != null) {
       return false;
@@ -113,5 +107,16 @@ public class Contato implements Bean {
     result = 31 * result + (numero != null ? numero.hashCode() : 0);
     result = 31 * result + (email != null ? email.hashCode() : 0);
     return result;
+  }
+
+  @Override
+  public String toString() {
+    return "ContatoDTO{" +
+           "email='" + email + '\'' +
+           ", id=" + id +
+           ", nome='" + nome + '\'' +
+           ", sobrenome='" + sobrenome + '\'' +
+           ", numero='" + numero + '\'' +
+           '}';
   }
 }

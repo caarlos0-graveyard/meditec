@@ -1,4 +1,4 @@
-package br.net.meditec.client.telas.home;
+package br.net.meditec.client.telas.contato;
 
 import com.google.web.bindery.event.shared.EventBus;
 
@@ -17,11 +17,13 @@ import br.net.meditec.client.telas.principal.PrincipalPresenter;
 /**
  * @author: Carlos A Becker
  */
-public class HomePresenter extends Presenter<HomePresenter.HomeView, HomePresenter.HomeProxy> {
+public class CadastroContatoPresenter extends
+                                      Presenter<CadastroContatoPresenter.CadastroContatoView, CadastroContatoPresenter.CadastroContatoProxy> {
 
   @Inject
-  public HomePresenter(EventBus eventBus, HomeProxy view, HomeView proxy) {
-    super(eventBus, proxy, view);
+  public CadastroContatoPresenter(EventBus eventBus, CadastroContatoView view,
+                                  CadastroContatoProxy proxy) {
+    super(eventBus, view, proxy);
   }
 
   @Override
@@ -29,13 +31,13 @@ public class HomePresenter extends Presenter<HomePresenter.HomeView, HomePresent
     RevealContentEvent.fire(this, PrincipalPresenter.CONTEUDO, this);
   }
 
-  @NameToken(Tokens.home)
-  @ProxyCodeSplit
-  public interface HomeProxy extends ProxyPlace<HomePresenter> {
+  public interface CadastroContatoView extends View {
 
   }
 
-  public interface HomeView extends View {
+  @ProxyCodeSplit
+  @NameToken(Tokens.cadastroContato)
+  public interface CadastroContatoProxy extends ProxyPlace<CadastroContatoPresenter> {
 
   }
 }

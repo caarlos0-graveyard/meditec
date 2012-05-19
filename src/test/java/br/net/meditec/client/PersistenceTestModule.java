@@ -12,15 +12,15 @@ import br.net.meditec.server.inject.PersistenceModule;
  */
 public class PersistenceTestModule {
 
-    private static Injector injector;
+  private static Injector injector;
 
-    public static Injector getInjector() {
-        if (injector == null) {
-            injector = Guice.createInjector(new PersistenceModule());
-            PersistService service = injector.getInstance(PersistService.class);
-            service.start();
-        }
-        return injector;
+  public static Injector getInjector() {
+    if (injector == null) {
+      injector = Guice.createInjector(new PersistenceModule());
+      PersistService service = injector.getInstance(PersistService.class);
+      service.start();
     }
+    return injector;
+  }
 
 }
