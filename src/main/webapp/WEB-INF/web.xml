@@ -5,11 +5,6 @@
 
 <web-app>
 
-
-    <listener>
-        <listener-class>br.net.meditec.server.inject.GuiceServletConfig</listener-class>
-    </listener>
-
     <filter>
         <filter-name>guiceFilter</filter-name>
         <filter-class>com.google.inject.servlet.GuiceFilter</filter-class>
@@ -20,6 +15,9 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+    <listener>
+        <listener-class>br.net.meditec.server.inject.GuiceServletConfig</listener-class>
+    </listener>
 
     <welcome-file-list>
         <welcome-file>Meditec.html</welcome-file>
