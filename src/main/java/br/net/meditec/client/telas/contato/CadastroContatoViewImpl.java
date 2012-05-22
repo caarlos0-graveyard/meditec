@@ -50,6 +50,9 @@ public class CadastroContatoViewImpl extends ViewImpl
   @UiField
   Button cancelar;
 
+  @UiField
+  Button novo;
+
   public CadastroContatoViewImpl() {
     w = ourUiBinder.createAndBindUi(this);
   }
@@ -75,6 +78,11 @@ public class CadastroContatoViewImpl extends ViewImpl
   @Override
   public void addCancelarHandler(ClickHandler handler) {
     cancelar.addClickHandler(handler);
+  }
+
+  @Override
+  public void addNovoHandler(ClickHandler handler) {
+    novo.addClickHandler(handler);
   }
 
   public HasValue<String> nome() {

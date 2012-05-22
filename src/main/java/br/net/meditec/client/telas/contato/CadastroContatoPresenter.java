@@ -2,12 +2,12 @@ package br.net.meditec.client.telas.contato;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.web.bindery.event.shared.EventBus;
 
 import com.github.gwtbootstrap.client.ui.Form;
+import com.github.gwtbootstrap.client.ui.constants.AlertType;
 import com.gwtplatform.dispatch.shared.DispatchAsync;
 import com.gwtplatform.mvp.client.Presenter;
 import com.gwtplatform.mvp.client.View;
@@ -20,9 +20,13 @@ import java.util.Date;
 
 import javax.inject.Inject;
 
+import br.net.meditec.client.events.ClearMsgsEvent;
+import br.net.meditec.client.events.ShowMsgEvent;
 import br.net.meditec.client.inject.Tokens;
 import br.net.meditec.client.telas.ClickEnterUpHandler;
 import br.net.meditec.client.telas.principal.PrincipalPresenter;
+import br.net.meditec.shared.commands.LoadContatoAction;
+import br.net.meditec.shared.commands.LoadContatoResult;
 import br.net.meditec.shared.commands.SalvarContatoAction;
 import br.net.meditec.shared.commands.SalvarContatoResult;
 import br.net.meditec.shared.dto.ContatoDTO;
@@ -63,33 +67,76 @@ public class CadastroContatoPresenter extends
         salvar();
       }
     });
+    getView().addNovoHandler(new ClickHandler() {
+      @Override
+      public void onClick(ClickEvent event) {
+        doNovo();
+      }
+    });
     getView().addCancelarHandler(new ClickHandler() {
       @Override
       public void onClick(ClickEvent event) {
-        Window.alert("MAOEEE");
-      }
-    });
-  }
+        if (contato.getId() == null) {
+          doNovo();
+        } else {
+          dispatcher.execute(
+              new LoadContatoAction(contato.getId()),
+              new AsyncCallback<LoadContatoResult>() {
+                @Override
+                public void onFailure(Throwable caught) {
+                  ShowMsgEvent.fire(CadastroContatoPresenter.this,
+                                    "Erro: " + caught.getLocalizedMessage(),
+                                    AlertType.ERROR);
+                }
 
-  private void salvar() {
-    Window.alert("MA SALVANDO!!!");
-    populaContato();
-    dispatcher.execute(new SalvarContatoAction(contato), new AsyncCallback<SalvarContatoResult>() {
-      @Override
-      public void onFailure(Throwable caught) {
-        Window.alert("MA DEU ERRO :/ ::  " + caught.getMessage());
-      }
-
-      @Override
-      public void onSuccess(SalvarContatoResult result) {
-        for (String msg : result.getMensagem()) {
-          Window.alert(msg);
+                @Override
+                public void onSuccess(LoadContatoResult result) {
+                  contato = result.getContato();
+                  popularTela();
+                }
+              });
         }
       }
     });
   }
 
+  private void salvar() {
+    populaContato();
+    dispatcher.execute(new SalvarContatoAction(contato), new AsyncCallback<SalvarContatoResult>() {
+      @Override
+      public void onFailure(Throwable caught) {
+        ShowMsgEvent.fire(CadastroContatoPresenter.this, "Erro: " + caught.getLocalizedMessage(),
+                          AlertType.ERROR);
+      }
+
+      @Override
+      public void onSuccess(SalvarContatoResult result) {
+        for (String msg : result.getMensagem()) {
+          ShowMsgEvent.fire(CadastroContatoPresenter.this, "Contato salvo com sucesso!",
+                            AlertType.SUCCESS);
+          contato = result.getContatoAtualizado();
+        }
+      }
+    });
+  }
+
+  private void doNovo() {
+    contato = new ContatoDTO();
+    popularTela();
+  }
+
+  private void popularTela() {
+    ClearMsgsEvent.fire(this);
+    CadastroContatoView v = getView();
+    v.nome().setValue(contato.getNome());
+    v.sobrenome().setValue(contato.getSobrenome());
+    v.email().setValue(contato.getEmail());
+    v.numero().setValue(contato.getNumero());
+    v.dataNascimento().setValue(contato.getDataNascimento());
+  }
+
   private void populaContato() {
+    ClearMsgsEvent.fire(this);
     CadastroContatoView v = getView();
     contato.setNome(v.nome().getValue());
     contato.setSobrenome(v.sobrenome().getValue());
@@ -105,6 +152,8 @@ public class CadastroContatoPresenter extends
     void addSalvarHandler(ClickEnterUpHandler handler);
 
     void addCancelarHandler(ClickHandler handler);
+
+    void addNovoHandler(ClickHandler handler);
 
     HasValue<String> nome();
 

@@ -1,11 +1,11 @@
 package br.net.meditec.client.telas.contato;
 
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 
+import com.github.gwtbootstrap.client.ui.constants.AlertType;
 import com.gwtplatform.dispatch.shared.DispatchAsync;
 import com.gwtplatform.mvp.client.Presenter;
 import com.gwtplatform.mvp.client.View;
@@ -16,6 +16,7 @@ import com.gwtplatform.mvp.client.proxy.RevealContentEvent;
 
 import java.util.List;
 
+import br.net.meditec.client.events.ShowMsgEvent;
 import br.net.meditec.client.inject.Tokens;
 import br.net.meditec.client.telas.ClickEnterUpHandler;
 import br.net.meditec.client.telas.principal.PrincipalPresenter;
@@ -49,18 +50,21 @@ public class ListaContatosPresenter extends
     getView().addBuscarHandler(new ClickEnterUpHandler() {
       @Override
       public void doSalvar() {
-        dispatcher.execute(new BuscarContatoAction(getView().campo().getValue()),
-                           new AsyncCallback<BuscarContatoResult>() {
-                             @Override
-                             public void onFailure(Throwable caught) {
-                               Window.alert("Erro: " + caught.getMessage());
-                             }
+        dispatcher.execute(
+            new BuscarContatoAction(getView().campo().getValue()),
+            new AsyncCallback<BuscarContatoResult>() {
+              @Override
+              public void onFailure(Throwable caught) {
+                ShowMsgEvent.fire(ListaContatosPresenter.this,
+                                  "Erro: " + caught.getLocalizedMessage(),
+                                  AlertType.ERROR);
+              }
 
-                             @Override
-                             public void onSuccess(BuscarContatoResult result) {
-                               getView().setContatos(result.getContatos());
-                             }
-                           });
+              @Override
+              public void onSuccess(BuscarContatoResult result) {
+                getView().setContatos(result.getContatos());
+              }
+            });
       }
     });
   }

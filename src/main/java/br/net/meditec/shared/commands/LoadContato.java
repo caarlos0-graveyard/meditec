@@ -4,26 +4,16 @@ import com.gwtplatform.dispatch.annotation.GenDispatch;
 import com.gwtplatform.dispatch.annotation.In;
 import com.gwtplatform.dispatch.annotation.Out;
 
-import java.util.List;
-
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
  * @author: Carlos A Becker
  */
 @GenDispatch(isSecure = false)
-public class SalvarContato {
-
+public class LoadContato {
   @In(1)
-  ContatoDTO contato;
+  Long id;
 
   @Out(1)
-  boolean ok;
-
-  @Out(2)
-  List<String> mensagem;
-
-  @Out(3)
-  ContatoDTO contatoAtualizado;
-
+  ContatoDTO contato;
 }

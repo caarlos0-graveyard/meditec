@@ -6,12 +6,14 @@
             <b:Brand href="#home">Meditec</b:Brand>
             <b:NavCollapse>
                 <b:Nav>
-                    <b:NavLink href="#cadastroContato">Novo Contato</b:NavLink>
-                    <b:NavLink href="#consultaContato">Listar Contatos</b:NavLink>
+                    <b:Dropdown text="Contato">
+                        <b:NavLink href="#cadastroContato">Cadastro</b:NavLink>
+                        <b:NavLink href="#consultaContato">Consulta</b:NavLink>
+                    </b:Dropdown>
                 </b:Nav>
             </b:NavCollapse>
         </b:ResponsiveNavbar>
-
+        <b:FluidContainer ui:field="msgs"/>
         <b:FluidContainer ui:field="sections"/>
 
     </g:HTMLPanel>

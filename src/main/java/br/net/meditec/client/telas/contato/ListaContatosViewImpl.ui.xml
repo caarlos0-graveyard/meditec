@@ -4,6 +4,9 @@
              xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
     <g:HTMLPanel>
         <b:Well>
+            <b:Heading size="1" subtext="busque por seus contatos no banco de dados.">Consulta de
+                Contatos
+            </b:Heading>
             <b:AppendButton>
                 <b:TextBox ui:field="txt_pesquisar" size="6" placeholder="Pesquisar..."/>
                 <b:Button text="" type="PRIMARY" ui:field="bt_pesquisar" icon="SEARCH" iconColor="WHITE"/>

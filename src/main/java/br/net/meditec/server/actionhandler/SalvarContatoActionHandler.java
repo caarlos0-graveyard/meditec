@@ -37,20 +37,22 @@ public class SalvarContatoActionHandler
   public SalvarContatoResult execute(SalvarContatoAction action, ExecutionContext context)
       throws ActionException {
 
+    Contato contato = null;
     try {
-      dao.save(converter.toBean(action.getContato()));
+      contato = dao.save(converter.toBean(action.getContato()));
     } catch (ConstraintViolationException cve) {
       List<String> msgs = new ArrayList<String>();
       for (ConstraintViolation<?> violation : cve.getConstraintViolations()) {
         msgs.add(violation.getMessage());
       }
-      return new SalvarContatoResult(false, msgs);
+      return new SalvarContatoResult(false, msgs, null);
     } catch (Exception e) {
       e.printStackTrace();
-      return new SalvarContatoResult(false, Arrays.asList("Erro fatal: " + e.getMessage()));
+      return new SalvarContatoResult(false, Arrays.asList("Erro fatal: " + e.getMessage()), null);
     }
 
-    return new SalvarContatoResult(true, Arrays.asList("Salvo com sucesso!"));
+    return new SalvarContatoResult(true, Arrays.asList("Salvo com sucesso!"),
+                                   converter.toDTO(contato));
   }
 
   public Class<SalvarContatoAction> getActionType() {
