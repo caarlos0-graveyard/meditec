@@ -19,6 +19,8 @@ import java.util.Date;
 import br.net.meditec.client.telas.ClickEnterUpHandler;
 
 /**
+ * Implementação da View de cadastro de contato.
+ *
  * @author Carlos A Becker
  */
 public class CadastroContatoViewImpl extends ViewImpl
@@ -59,10 +61,6 @@ public class CadastroContatoViewImpl extends ViewImpl
 
   public Widget asWidget() {
     return w;
-  }
-
-  public void addSubmitHandler(Form.SubmitHandler handler) {
-//    form.addSubmitHandler(handler);
   }
 
   @Override

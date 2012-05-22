@@ -31,6 +31,8 @@ import br.net.meditec.shared.commands.BuscarContatoResult;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Presenter da lista de contatos da appp.
+ *
  * @author Carlos A Becker
  */
 public class ListaContatosPresenter extends

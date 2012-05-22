@@ -7,7 +7,6 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.web.bindery.event.shared.EventBus;
 
-import com.github.gwtbootstrap.client.ui.Form;
 import com.github.gwtbootstrap.client.ui.constants.AlertType;
 import com.gwtplatform.dispatch.shared.DispatchAsync;
 import com.gwtplatform.mvp.client.Presenter;
@@ -41,13 +40,19 @@ import br.net.meditec.shared.commands.SalvarContatoResult;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Presenter de cadastro de contatos.
+ *
  * @author Carlos A Becker
  */
 public class CadastroContatoPresenter extends
                                       Presenter<CadastroContatoPresenter.CadastroContatoView, CadastroContatoPresenter.CadastroContatoProxy>
     implements EditarContatoEvent.EditarContatoHandler, ExcluirContatoEvent.ExcluirContatoHandler {
 
+  /**
+   * Representa o DTO que está sendo alterado nesse momento.
+   */
   private ContatoDTO contato = new ContatoDTO();
+
   private final DispatchAsync dispatcher;
   private final PlaceManager placeManager;
 
@@ -62,18 +67,13 @@ public class CadastroContatoPresenter extends
 
   @Override
   protected void revealInParent() {
+    // revelo no content slot da principal presenter.
     RevealContentEvent.fire(this, PrincipalPresenter.CONTEUDO, this);
   }
-
 
   @Override
   protected void onBind() {
     super.onBind();
-    getView().addSubmitHandler(new Form.SubmitHandler() {
-      public void onSubmit(Form.SubmitEvent event) {
-        doSalvar();
-      }
-    });
     getView().addSalvarHandler(new ClickEnterUpHandler() {
       @Override
       public void doAction() {
@@ -102,6 +102,10 @@ public class CadastroContatoPresenter extends
     });
   }
 
+  /**
+   * Cancela a edicao do contato. Recarrega ele do banco caso ele tenha ID, cria um novo caso
+   * contrário.
+   */
   private void doCancelar() {
     if (contato.getId() == null) {
       doNovo();
@@ -124,6 +128,9 @@ public class CadastroContatoPresenter extends
     }
   }
 
+  /**
+   * Salvar o contato atual.
+   */
   private void doSalvar() {
     populaContato();
     dispatcher.execute(new SalvarContatoAction(contato), new AsyncCallback<SalvarContatoResult>() {
@@ -145,6 +152,9 @@ public class CadastroContatoPresenter extends
     });
   }
 
+  /**
+   * Exclui o contato atual.
+   */
   private void doExcluir() {
     ClearMsgsEvent.fire(this);
     if (Window.confirm("Tem certeza que deseja excluir o contato " + contato.getNome() + "?")) {
@@ -159,7 +169,7 @@ public class CadastroContatoPresenter extends
 
             @Override
             public void onSuccess(ExcluirContatoResult result) {
-              if(result.isOk()) {
+              if (result.isOk()) {
                 doNovo();
               }
               for (String msg : result.getMensagens()) {
@@ -172,11 +182,17 @@ public class CadastroContatoPresenter extends
     }
   }
 
+  /**
+   * Cria um novo contato.
+   */
   private void doNovo() {
     contato = new ContatoDTO();
     popularTela();
   }
 
+  /**
+   * Popula a tela a partir do contato dto.
+   */
   private void popularTela() {
     ClearMsgsEvent.fire(this);
     CadastroContatoView v = getView();
@@ -184,13 +200,17 @@ public class CadastroContatoPresenter extends
     v.sobrenome().setValue(contato.getSobrenome());
     v.email().setValue(contato.getEmail());
     v.numero().setValue(contato.getNumero());
-    v.dataNascimento().setValue(contato.getDataNascimento() == null ? new Date() : contato.getDataNascimento());
+    v.dataNascimento()
+        .setValue(contato.getDataNascimento() == null ? new Date() : contato.getDataNascimento());
   }
 
+  /**
+   * Popula o contato DTO a parti da tela.
+   */
   private void populaContato() {
     ClearMsgsEvent.fire(this);
     CadastroContatoView v = getView();
-    if(contato == null) {
+    if (contato == null) {
       contato = new ContatoDTO();
     }
     contato.setNome(v.nome().getValue());
@@ -216,8 +236,6 @@ public class CadastroContatoPresenter extends
   }
 
   public interface CadastroContatoView extends View {
-
-    void addSubmitHandler(Form.SubmitHandler handler);
 
     void addSalvarHandler(ClickEnterUpHandler handler);
 

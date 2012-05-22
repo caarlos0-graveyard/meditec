@@ -28,6 +28,8 @@ import br.net.meditec.client.telas.ClickEnterUpHandler;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Implementação da View da Lista de Contatos.
+ *
  * @author Carlos A Becker
  */
 public class ListaContatosViewImpl extends ViewImpl
