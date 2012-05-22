@@ -26,7 +26,7 @@ public class ContatoDaoTest {
 
   @Test
   public void testSave() throws Exception {
-    Contato contato = new Contato("Carlos Alexandro", "Becker", "9903-4343", "caarlos0@gmail.com",
+    Contato contato = new Contato("Chuckkkkkk", "Norrissss", "9903-4343", "gmail@chucknorris.com",
                                   new Date());
     dao.save(contato);
     assertNotNull(contato.getId());
