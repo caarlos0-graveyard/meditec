@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ExcluirContatoEvent.html" title="br.net.meditec.client.events.ExcluirContatoEvent" alt="" coords="16,27,581,277"/>
+<area shape="rect" id="node2_1" href="./ExcluirContatoEvent.HasExcluirContatoHandlers.html" title="br.net.meditec.client.events.ExcluirContatoEvent.HasExcluirContatoHandlers" alt="" coords="627,107,1309,197"/>
+<area shape="rect" id="node3_2" href="./ExcluirContatoEvent.ExcluirContatoHandler.html" title="br.net.meditec.client.events.ExcluirContatoEvent.ExcluirContatoHandler" alt="" coords="1355,107,1685,197"/>
+<area shape="rect" id="node4_3" href="./ClearMsgsEvent.html" title="br.net.meditec.client.events.ClearMsgsEvent" alt="" coords="1730,51,2243,253"/>
+<area shape="rect" id="node5_4" href="./ClearMsgsEvent.HasClearMsgsHandlers.html" title="br.net.meditec.client.events.ClearMsgsEvent.HasClearMsgsHandlers" alt="" coords="2289,107,2895,197"/>
+<area shape="rect" id="node6_5" href="./ClearMsgsEvent.ClearMsgsHandler.html" title="br.net.meditec.client.events.ClearMsgsEvent.ClearMsgsHandler" alt="" coords="2940,107,3217,197"/>
+<area shape="rect" id="node7_6" href="./EditarContatoEvent.html" title="br.net.meditec.client.events.EditarContatoEvent" alt="" coords="3263,27,3820,277"/>
+<area shape="rect" id="node8_7" href="./EditarContatoEvent.HasEditarContatoHandlers.html" title="br.net.meditec.client.events.EditarContatoEvent.HasEditarContatoHandlers" alt="" coords="3866,107,4537,197"/>
+<area shape="rect" id="node9_8" href="./EditarContatoEvent.EditarContatoHandler.html" title="br.net.meditec.client.events.EditarContatoEvent.EditarContatoHandler" alt="" coords="4582,107,4903,197"/>
+<area shape="rect" id="node10_9" href="./AtualizarListaDeContatosEvent.html" title="br.net.meditec.client.events.AtualizarListaDeContatosEvent" alt="" coords="4949,51,5654,253"/>
+<area shape="rect" id="node11_10" href="./AtualizarListaDeContatosEvent.HasAtualizarListaDeContatosHandlers.html" title="br.net.meditec.client.events.AtualizarListaDeContatosEvent.HasAtualizarListaDeContatosHandlers" alt="" coords="5700,107,6593,197"/>
+<area shape="rect" id="node12_11" href="./AtualizarListaDeContatosEvent.AtualizarListaDeContatosHandler.html" title="br.net.meditec.client.events.AtualizarListaDeContatosEvent.AtualizarListaDeContatosHandler" alt="" coords="6639,107,7108,197"/>
+<area shape="rect" id="node13_12" href="./ShowMsg.html" title="br.net.meditec.client.events.ShowMsg" alt="" coords="7153,107,7316,197"/>
+<area shape="rect" id="node14_13" href="./ExcluirContato.html" title="br.net.meditec.client.events.ExcluirContato" alt="" coords="7362,115,7537,189"/>
+<area shape="rect" id="node15_14" href="./AtualizarListaDeContatos.html" title="br.net.meditec.client.events.AtualizarListaDeContatos" alt="" coords="7583,115,7791,189"/>
+<area shape="rect" id="node16_15" href="./EditarContato.html" title="br.net.meditec.client.events.EditarContato" alt="" coords="7837,115,8011,189"/>
+<area shape="rect" id="node17_16" href="./ClearMsgs.html" title="br.net.meditec.client.events.ClearMsgs" alt="" coords="8057,115,8169,189"/>
+<area shape="rect" id="node18_17" href="./ShowMsgEvent.html" title="br.net.meditec.client.events.ShowMsgEvent" alt="" coords="8215,11,8716,293"/>
+<area shape="rect" id="node19_18" href="./ShowMsgEvent.HasShowMsgHandlers.html" title="br.net.meditec.client.events.ShowMsgEvent.HasShowMsgHandlers" alt="" coords="8761,107,9348,197"/>
+<area shape="rect" id="node20_19" href="./ShowMsgEvent.ShowMsgHandler.html" title="br.net.meditec.client.events.ShowMsgEvent.ShowMsgHandler" alt="" coords="9394,107,9659,197"/>
+</map>

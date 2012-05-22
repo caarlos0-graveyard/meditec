@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AtualizarListaDeContatosEvent.AtualizarListaDeContatosHandler.html" title="br.net.meditec.client.events.AtualizarListaDeContatosEvent.AtualizarListaDeContatosHandler" alt="" coords="359,113,828,202"/>
+<area shape="rect" id="node2_1" href="../telas/contato/ListaContatosPresenter.html" title="br.net.meditec.client.telas.contato.ListaContatosPresenter" alt="" coords="15,262,1172,399"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/EventHandler.html" title="com.google.gwt.event.shared.EventHandler" alt="" coords="540,11,647,53"/>
+</map>

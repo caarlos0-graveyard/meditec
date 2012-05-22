@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ListaContatosViewImpl.html" title="br.net.meditec.client.telas.contato.ListaContatosViewImpl" alt="" coords="154,241,617,602"/>
+<area shape="rect" id="node2_1" href="./ListaContatosPresenter.ListaContatosView.html" title="br.net.meditec.client.telas.contato.ListaContatosPresenter.ListaContatosView" alt="" coords="16,11,371,181"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/com/gwtplatform/mvp/client/ViewImpl.html" title="com.gwtplatform.mvp.client.ViewImpl" alt="" coords="416,35,741,157"/>
+</map>

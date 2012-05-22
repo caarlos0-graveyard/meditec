@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./CadastroContatoPresenter.html" title="br.net.meditec.client.telas.contato.CadastroContatoPresenter" alt="" coords="16,11,1477,277"/>
+<area shape="rect" id="node2_1" href="./CadastroContatoPresenter.CadastroContatoView.html" title="br.net.meditec.client.telas.contato.CadastroContatoPresenter.CadastroContatoView" alt="" coords="1523,27,1882,261"/>
+<area shape="rect" id="node6_2" href="./CadastroContatoViewImpl.html" title="br.net.meditec.client.telas.contato.CadastroContatoViewImpl" alt="" coords="1450,337,1955,746"/>
+<area shape="rect" id="node3_3" href="./CadastroContatoPresenter.CadastroContatoProxy.html" title="br.net.meditec.client.telas.contato.CadastroContatoPresenter.CadastroContatoProxy" alt="" coords="1928,123,2093,165"/>
+<area shape="rect" id="node4_4" href="./ListaContatosViewImpl.html" title="br.net.meditec.client.telas.contato.ListaContatosViewImpl" alt="" coords="2085,361,2547,722"/>
+<area shape="rect" id="node5_5" href="./ListaContatosViewImpl.ListaContatosViewImplUiBinder.html" title="br.net.meditec.client.telas.contato.ListaContatosViewImpl.ListaContatosViewImplUiBinder" alt="" coords="2539,123,2757,165"/>
+<area shape="rect" id="node7_6" href="./CadastroContatoViewImpl.CadastroContatoViewImplUiBinder.html" title="br.net.meditec.client.telas.contato.CadastroContatoViewImpl.CadastroContatoViewImplUiBinder" alt="" coords="2803,123,3043,165"/>
+<area shape="rect" id="node8_7" href="./ListaContatosPresenter.html" title="br.net.meditec.client.telas.contato.ListaContatosPresenter" alt="" coords="3088,75,4245,213"/>
+<area shape="rect" id="node9_8" href="./ListaContatosPresenter.ListaContatosView.html" title="br.net.meditec.client.telas.contato.ListaContatosPresenter.ListaContatosView" alt="" coords="2139,59,2493,229"/>
+<area shape="rect" id="node10_9" href="./ListaContatosPresenter.ListaContatosProxy.html" title="br.net.meditec.client.telas.contato.ListaContatosPresenter.ListaContatosProxy" alt="" coords="4291,123,4435,165"/>
+</map>

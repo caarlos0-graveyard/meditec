@@ -1,0 +1,14 @@
+br.net.meditec.client
+br.net.meditec.client.events
+br.net.meditec.client.inject
+br.net.meditec.client.telas
+br.net.meditec.client.telas.contato
+br.net.meditec.client.telas.home
+br.net.meditec.client.telas.principal
+br.net.meditec.server.actionhandler
+br.net.meditec.server.converter
+br.net.meditec.server.dao
+br.net.meditec.server.inject
+br.net.meditec.server.model
+br.net.meditec.shared.commands
+br.net.meditec.shared.dto

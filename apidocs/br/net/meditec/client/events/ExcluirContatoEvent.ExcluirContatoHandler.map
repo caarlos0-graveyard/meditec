@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ExcluirContatoEvent.ExcluirContatoHandler.html" title="br.net.meditec.client.events.ExcluirContatoEvent.ExcluirContatoHandler" alt="" coords="582,113,911,202"/>
+<area shape="rect" id="node2_1" href="../telas/contato/CadastroContatoPresenter.html" title="br.net.meditec.client.telas.contato.CadastroContatoPresenter" alt="" coords="16,262,1477,527"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/EventHandler.html" title="com.google.gwt.event.shared.EventHandler" alt="" coords="693,11,800,53"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ClickEnterUpHandler.html" title="br.net.meditec.client.telas.ClickEnterUpHandler" alt="" coords="129,161,354,282"/>
+<area shape="rect" id="node2_1" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/dom/client/ClickHandler.html" title="com.google.gwt.event.dom.client.ClickHandler" alt="" coords="16,11,213,101"/>
+<area shape="rect" id="node4_2" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/dom/client/KeyUpHandler.html" title="com.google.gwt.event.dom.client.KeyUpHandler" alt="" coords="259,11,477,101"/>
+</map>

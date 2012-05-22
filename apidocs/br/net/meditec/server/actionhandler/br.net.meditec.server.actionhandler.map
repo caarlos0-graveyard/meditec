@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./LoadContatoActionHandler.html" title="br.net.meditec.server.actionhandler.LoadContatoActionHandler" alt="" coords="15,11,649,149"/>
+<area shape="rect" id="node2_1" href="./BuscarContatoActionHandler.html" title="br.net.meditec.server.actionhandler.BuscarContatoActionHandler" alt="" coords="694,11,1341,149"/>
+<area shape="rect" id="node3_2" href="./ExcluirContatoActionHandler.html" title="br.net.meditec.server.actionhandler.ExcluirContatoActionHandler" alt="" coords="1386,11,2030,149"/>
+<area shape="rect" id="node4_3" href="./SalvarContatoActionHandler.html" title="br.net.meditec.server.actionhandler.SalvarContatoActionHandler" alt="" coords="2076,11,2719,149"/>
+</map>

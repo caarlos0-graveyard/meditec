@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./HomePresenter.HomeView.html" title="br.net.meditec.client.telas.home.HomePresenter.HomeView" alt="" coords="152,209,245,250"/>
+<area shape="rect" id="node2_1" href="./HomeViewImpl.html" title="br.net.meditec.client.telas.home.HomeViewImpl" alt="" coords="16,310,381,415"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/com/gwtplatform/mvp/client/View.html" title="com.gwtplatform.mvp.client.View" alt="" coords="36,11,361,149"/>
+</map>

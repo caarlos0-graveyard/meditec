@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ShowMsgEvent.ShowMsgHandler.html" title="br.net.meditec.client.events.ShowMsgEvent.ShowMsgHandler" alt="" coords="650,113,915,202"/>
+<area shape="rect" id="node2_1" href="../telas/principal/PrincipalPresenter.html" title="br.net.meditec.client.telas.principal.PrincipalPresenter" alt="" coords="15,262,974,415"/>
+<area shape="rect" id="node3_2" href="../telas/principal/PrincipalPresenter.PrincipalView.html" title="br.net.meditec.client.telas.principal.PrincipalPresenter.PrincipalView" alt="" coords="1019,318,1122,359"/>
+<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/EventHandler.html" title="com.google.gwt.event.shared.EventHandler" alt="" coords="729,11,836,53"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./PrincipalViewImpl.html" title="br.net.meditec.client.telas.principal.PrincipalViewImpl" alt="" coords="15,225,409,410"/>
+<area shape="rect" id="node2_1" href="./PrincipalViewImpl.PrincipalViewImplUiBinder.html" title="br.net.meditec.client.telas.principal.PrincipalViewImpl.PrincipalViewImplUiBinder" alt="" coords="309,67,493,109"/>
+<area shape="rect" id="node3_2" href="./PrincipalPresenter.html" title="br.net.meditec.client.telas.principal.PrincipalPresenter" alt="" coords="538,11,1497,165"/>
+<area shape="rect" id="node4_3" href="./PrincipalPresenter.PrincipalProxy.html" title="br.net.meditec.client.telas.principal.PrincipalPresenter.PrincipalProxy" alt="" coords="1541,67,1651,109"/>
+<area shape="rect" id="node5_4" href="./PrincipalPresenter.PrincipalView.html" title="br.net.meditec.client.telas.principal.PrincipalPresenter.PrincipalView" alt="" coords="161,67,263,109"/>
+</map>
