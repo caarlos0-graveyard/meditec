@@ -7,6 +7,7 @@
             <b:NavCollapse>
                 <b:Nav>
                     <b:NavLink href="#cadastroContato">Novo Contato</b:NavLink>
+                    <b:NavLink href="#consultaContato">Listar Contatos</b:NavLink>
                 </b:Nav>
             </b:NavCollapse>
         </b:ResponsiveNavbar>

@@ -15,8 +15,8 @@ public abstract class Converter<B extends Bean, D extends DTO> {
 
   public abstract D toDTO(B bean);
 
-  public List<DTO> toDTOList(List<B> beans) {
-    List<DTO> dtos = new ArrayList<DTO>();
+  public List<D> toDTOList(List<B> beans) {
+    List<D> dtos = new ArrayList<D>();
     for (B bean : beans) {
       dtos.add(toDTO(bean));
     }

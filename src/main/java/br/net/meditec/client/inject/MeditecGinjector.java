@@ -11,6 +11,7 @@ import com.gwtplatform.dispatch.shared.DispatchAsync;
 import com.gwtplatform.mvp.client.proxy.PlaceManager;
 
 import br.net.meditec.client.telas.contato.CadastroContatoPresenter;
+import br.net.meditec.client.telas.contato.ListaContatosPresenter;
 import br.net.meditec.client.telas.home.HomePresenter;
 import br.net.meditec.client.telas.principal.PrincipalPresenter;
 
@@ -32,5 +33,7 @@ public interface MeditecGinjector extends Ginjector {
   AsyncProvider<HomePresenter> getHomePresenter();
 
   AsyncProvider<CadastroContatoPresenter> getCadastroContatoPresenter();
+
+  AsyncProvider<ListaContatosPresenter> getListaContatosPresenter();
 
 }

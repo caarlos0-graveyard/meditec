@@ -1,0 +1,15 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:cv="urn:import:com.google.gwt.user.cellview.client"
+             xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
+    <g:HTMLPanel>
+        <b:Well>
+            <b:AppendButton>
+                <b:TextBox ui:field="txt_pesquisar" size="6" placeholder="Pesquisar..."/>
+                <b:Button text="" type="PRIMARY" ui:field="bt_pesquisar" icon="SEARCH" iconColor="WHITE"/>
+            </b:AppendButton>
+            <cv:CellTable ui:field="tabela"/>
+            <cv:SimplePager location="CENTER" ui:field="paginador"/>
+        </b:Well>
+    </g:HTMLPanel>
+</ui:UiBinder>

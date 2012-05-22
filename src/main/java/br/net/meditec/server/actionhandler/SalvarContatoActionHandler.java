@@ -1,4 +1,4 @@
-package br.net.meditec.server;
+package br.net.meditec.server.actionhandler;
 
 import com.gwtplatform.dispatch.server.ExecutionContext;
 import com.gwtplatform.dispatch.server.actionhandler.ActionHandler;

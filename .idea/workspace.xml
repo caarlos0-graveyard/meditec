@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecGinjector.java" line="29" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecGinjector.java" line="30" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java" line="4" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b000e43a-9729-4fa4-9329-29f3673ecbde" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/ClickEnterUpHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/server/actionhandler/BuscarContatoActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/BuscarContato.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/server/SalvarContatoActionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/server/actionhandler/SalvarContatoActionHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meditec.iml" afterPath="$PROJECT_DIR$/meditec.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecGinjector.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecGinjector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/PresenterModule.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/PresenterModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/Tokens.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/Tokens.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.ui.xml" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalViewImpl.ui.xml" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalViewImpl.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/server/converter/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/server/converter/Converter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java" />
     </list>
     <ignored path="meditec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,46 +82,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CadastroContatoViewImpl.ui.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.ui.xml">
+      <file leaf-file-name="ListaContatosPresenter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="43" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="55" column="74" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.9913793">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1714#2431#0" expanded="true" />
+                <element signature="e#2424#2425#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrincipalPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalPresenter.java">
+      <file leaf-file-name="BuscarContato.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/BuscarContato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="30" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CadastroContatoPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalvarContatoActionHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/SalvarContatoActionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="41" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeditecHandlerModule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,47 +106,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersistenceTestModule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/net/meditec/client/PersistenceTestModule.java">
+      <file leaf-file-name="BuscarContatoActionHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/actionhandler/BuscarContatoActionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+            <state line="33" column="50" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MeditecHandlerModule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="75" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContatoDaoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/net/meditec/client/ContatoDaoTest.java">
+      <file leaf-file-name="Converter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="43" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+            <state line="18" column="34" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compiler.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <file leaf-file-name="ListaContatosViewImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="63" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="67" selection-start="8689" selection-end="8689" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="72" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.74204946">
-              <folding />
+            <state line="12" column="44" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1326#1338#0" expanded="true" />
+                <element signature="e#1566#1578#0" expanded="true" />
+                <element signature="e#1616#1762#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
+                <element signature="e#1801#1975#0" expanded="true" />
+                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#2012#2157#0" expanded="true" />
+                <element signature="e#2150#2151#0" expanded="true" />
+                <element signature="e#2196#2340#0" expanded="true" />
+                <element signature="e#2333#2334#0" expanded="true" />
+                <element signature="e#2452#2617#0" expanded="true" />
+                <element signature="e#2610#2611#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,25 +167,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GwtCompilerConfiguration">
+    <show-output>
+      <module name="meditec" />
+    </show-output>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalViewImpl.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/br/net/meditec/Meditec.gwt.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecPlaceManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/SalvarContato.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/SalvarContatoActionHandler.java" />
-        <option value="$PROJECT_DIR$/target/generated-sources/apt/br/net/meditec/shared/commands/SalvarContatoAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/HandlerModule.java" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/br/net/meditec/client/ContatoDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.ui.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/SalvarHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/Tokens.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/PresenterModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecGinjector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalViewImpl.ui.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.ui.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/BuscarContato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/actionhandler/BuscarContatoActionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/converter/Converter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosPresenter.java" />
       </list>
     </option>
   </component>
@@ -258,14 +260,29 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="gwt" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Meditec" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
@@ -336,10 +353,6 @@
               <option name="myItemId" value="meditec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -380,54 +393,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meditec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meditec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meditec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meditec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meditec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,10 +419,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meditec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,6 +511,14 @@
               <option name="myItemId" value="meditec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actionhandler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -561,8 +530,178 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="principal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contato" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meditec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -581,20 +720,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
@@ -843,10 +972,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="24" width="1370" height="746" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7056856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -858,13 +987,13 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27954546" sideWeight="0.2257525" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3242424" sideWeight="0.6438127" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3242424" sideWeight="0.6454849" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2810606" sideWeight="0.6438127" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35618728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2780303" sideWeight="0.29431438" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38127092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="98" y="124" width="1170" height="546" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -966,97 +1095,144 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalViewImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/gwtbootstrap/gwt-bootstrap/2.0.3.0-SNAPSHOT/gwt-bootstrap-2.0.3.0-SNAPSHOT-sources.jar!/com/github/gwtbootstrap/datepicker/client/ui/base/DateBoxBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="567" selection-end="567" vertical-scroll-proportion="0.48" />
+        <state line="24" column="13" selection-start="919" selection-end="919" vertical-scroll-proportion="-0.5141066">
+          <folding>
+            <marker date="1337315274000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1337315274000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1337315274000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecPlaceManager.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/gwtbootstrap/gwt-bootstrap/2.0.3.0-SNAPSHOT/gwt-bootstrap-2.0.3.0-SNAPSHOT-sources.jar!/com/github/gwtbootstrap/datepicker/client/ui/DateBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="779" selection-end="779" vertical-scroll-proportion="0.65088755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/br/net/meditec/Meditec.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="65" selection-start="305" selection-end="305" vertical-scroll-proportion="0.22189349" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="-1.0473537" />
+        <state line="10" column="34" selection-start="246" selection-end="246" vertical-scroll-proportion="0.47021943">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/model/Contato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.81615597" />
+        <state line="31" column="0" selection-start="819" selection-end="819" vertical-scroll-proportion="0.2740472">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/SalvarContato.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecPlaceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.5444646" />
+        <state line="13" column="13" selection-start="340" selection-end="340" vertical-scroll-proportion="0.073529415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/MeditecGinjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="68" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.7794118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/inject/PresenterModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="94" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.8587258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1326#1338#0" expanded="true" />
+            <element signature="e#1566#1578#0" expanded="true" />
+            <element signature="e#1616#1762#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1801#1975#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2012#2157#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2196#2340#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2452#2617#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="43" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/principal/PrincipalPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="30" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/SalvarContatoActionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="41" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="63" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+        <state line="62" column="20" selection-start="3157" selection-end="3157" vertical-scroll-proportion="1.6258742">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/net/meditec/client/ContatoDaoTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/gwtbootstrap/gwt-bootstrap/2.0.3.0-SNAPSHOT/gwt-bootstrap-2.0.3.0-SNAPSHOT-sources.jar!/com/github/gwtbootstrap/client/ui/PrependButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.39534885">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/net/meditec/client/PersistenceTestModule.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/gwtbootstrap/gwt-bootstrap/2.0.3.0-SNAPSHOT/gwt-bootstrap-2.0.3.0-SNAPSHOT-sources.jar!/com/github/gwtbootstrap/client/ui/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="168" column="38" selection-start="6502" selection-end="6506" vertical-scroll-proportion="0.9019608">
+          <folding>
+            <element signature="e#0#13966#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1337315274000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="59" selection-start="382" selection-end="382" vertical-scroll-proportion="0.30523255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/BuscarContato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="67" selection-start="8689" selection-end="8689" vertical-scroll-proportion="0.0">
+        <state line="18" column="34" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/actionhandler/BuscarContatoActionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="72" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.74204946">
+        <state line="33" column="50" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="75" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="74" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.9913793">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1714#2431#0" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,7 +1242,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>meditec:war</last-edited>
+          <last-edited>meditec:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1079,7 +1255,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>GWT</last-edited>
+          <last-edited>GWT (meditec)|GWT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

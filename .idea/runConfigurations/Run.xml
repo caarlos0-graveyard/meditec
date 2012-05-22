@@ -12,7 +12,7 @@
         <artifact name="meditec:war" />
         <artifact name="meditec:war exploded" />
       </option>
-      <option name="Maven.BeforeRunTask" enabled="false" file="$PROJECT_DIR$/pom.xml" goal="process-sources" />
+      <option name="Maven.BeforeRunTask" enabled="false" file="$PROJECT_DIR$/pom.xml" goal="org.codehaus.mojo:gwt-maven-plugin:2.4.0:compile" />
     </method>
   </configuration>
 </component>

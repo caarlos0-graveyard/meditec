@@ -10,7 +10,7 @@
                     Contatos
                 </b:Heading>
                 <hr/>
-                <b:Form type="HORIZONTAL" ui:field="form">
+                <!--<b:Form type="HORIZONTAL" ui:field="form">-->
                     <b:Fieldset>
 
                         <b:ControlGroup>
@@ -53,11 +53,12 @@
                             </b:Controls>
                         </b:ControlGroup>
                         <b:FormActions>
-                            <b:SubmitButton type="PRIMARY">Salvar</b:SubmitButton>
-                            <b:Button>Cancelar</b:Button>
+                            <!--<b:SubmitButton type="PRIMARY">Salvar</b:SubmitButton>-->
+                            <b:Button ui:field="salvar" type="PRIMARY">Salvandooo maoeee</b:Button>
+                            <b:Button ui:field="cancelar">Cancelar</b:Button>
                         </b:FormActions>
                     </b:Fieldset>
-                </b:Form>
+                <!--</b:Form>-->
             </b:Well>
         </b:Section>
 
