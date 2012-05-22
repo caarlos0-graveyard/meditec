@@ -14,7 +14,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.PARAMETER, ElementType.METHOD})

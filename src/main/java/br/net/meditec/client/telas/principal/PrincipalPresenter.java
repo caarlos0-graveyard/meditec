@@ -21,7 +21,7 @@ import br.net.meditec.client.events.ShowMsgEvent;
 import br.net.meditec.client.telas.home.HomePresenter;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class PrincipalPresenter
     extends Presenter<PrincipalPresenter.PrincipalView, PrincipalPresenter.PrincipalProxy>

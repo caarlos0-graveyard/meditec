@@ -4,11 +4,9 @@
     <g:HTMLPanel>
         <b:Section target="home">
             <b:Hero>
-                <b:Heading size="2">Bem Vindo a Lista de Contatos Meditec</b:Heading>
-                <b:Heading size="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    congue ornare quam, at consequat dolor iaculis a. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                </b:Heading>
+                <b:Heading size="2">Meditec</b:Heading>
+                <b:Heading size="3">Produtividade no desenvolvimento Web com Google Web Toolkit</b:Heading>
+                <b:Heading size="4">Aplicação de Exemplo: Lista de Contatos</b:Heading>
             </b:Hero>
         </b:Section>
     </g:HTMLPanel>

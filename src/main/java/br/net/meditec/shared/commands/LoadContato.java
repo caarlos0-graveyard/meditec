@@ -7,7 +7,7 @@ import com.gwtplatform.dispatch.annotation.Out;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 @GenDispatch(isSecure = false)
 public class LoadContato {

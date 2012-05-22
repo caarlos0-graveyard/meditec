@@ -1,7 +1,7 @@
 package br.net.meditec.client.inject;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class Tokens {
 

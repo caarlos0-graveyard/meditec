@@ -3,7 +3,7 @@ package br.net.meditec.shared.dto;
 import java.util.Date;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class ContatoDTO implements DTO {
 

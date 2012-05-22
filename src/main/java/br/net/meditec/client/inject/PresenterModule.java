@@ -13,7 +13,7 @@ import br.net.meditec.client.telas.principal.PrincipalPresenter;
 import br.net.meditec.client.telas.principal.PrincipalViewImpl;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class PresenterModule extends AbstractPresenterModule {
 

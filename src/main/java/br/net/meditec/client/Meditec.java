@@ -8,7 +8,7 @@ import com.gwtplatform.mvp.client.DelayedBindRegistry;
 import br.net.meditec.client.inject.MeditecGinjector;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class Meditec implements EntryPoint {
 

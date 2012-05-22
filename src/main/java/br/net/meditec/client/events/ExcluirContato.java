@@ -1,17 +1,17 @@
 package br.net.meditec.client.events;
 
-import com.github.gwtbootstrap.client.ui.constants.AlertType;
 import com.gwtplatform.dispatch.annotation.GenEvent;
 import com.gwtplatform.dispatch.annotation.In;
+
+import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
  * @author Carlos A Becker
  */
 @GenEvent
-public class ShowMsg {
-  @In(1)
-  String msg;
+public class ExcluirContato {
 
-  @In(2)
-  AlertType alertType;
+  @In(1)
+  ContatoDTO contato;
+
 }

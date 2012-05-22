@@ -45,7 +45,7 @@ public class AbstractDao<T extends Bean> {
 
   @Transactional
   public void remove(T t) {
-    em().remove(t);
+    em().remove(t.getId() != null ? em().merge(t) : t);
   }
 
   @Transactional

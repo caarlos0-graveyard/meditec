@@ -9,7 +9,7 @@ import br.net.meditec.server.model.Contato;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class ConverterModule extends AbstractModule {
 

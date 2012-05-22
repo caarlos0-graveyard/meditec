@@ -17,7 +17,7 @@ import br.net.meditec.client.telas.principal.PrincipalPresenter;
 
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 @GinModules({DispatchAsyncModule.class, PresenterModule.class})
 public interface MeditecGinjector extends Ginjector {

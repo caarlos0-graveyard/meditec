@@ -17,7 +17,7 @@
                         <b:ControlLabel>Nome</b:ControlLabel>
                         <b:Controls>
                             <b:TextBox alternateSize="XLARGE" placeholder="João Francisco"
-                                       ui:field="nome"></b:TextBox>
+                                       ui:field="nome" />
                         </b:Controls>
                     </b:ControlGroup>
 
@@ -25,7 +25,7 @@
                         <b:ControlLabel>Sobrenome</b:ControlLabel>
                         <b:Controls>
                             <b:TextBox alternateSize="XLARGE" placeholder="da Silva"
-                                       ui:field="sobrenome"></b:TextBox>
+                                       ui:field="sobrenome" />
                         </b:Controls>
                     </b:ControlGroup>
 
@@ -34,7 +34,7 @@
                         <b:Controls>
                             <b:TextBox alternateSize="XLARGE"
                                        placeholder="joaodasilva@gmail.com"
-                                       ui:field="email"></b:TextBox>
+                                       ui:field="email" />
                         </b:Controls>
                     </b:ControlGroup>
 
@@ -43,7 +43,7 @@
                         <b:Controls>
                             <b:TextBox alternateSize="XLARGE"
                                        placeholder="+55 (45) 1234-5678"
-                                       ui:field="telefone"></b:TextBox>
+                                       ui:field="telefone" />
                         </b:Controls>
                     </b:ControlGroup>
                     <b:ControlGroup>
@@ -60,6 +60,7 @@
                             </b:Button>
                             <b:Button ui:field="cancelar" icon="BACKWARD">Cancelar</b:Button>
                             <b:Button ui:field="novo" icon="FILE">Novo</b:Button>
+                            <b:Button ui:field="excluir" type="DANGER" icon="TRASH" iconColor="WHITE">Excluir</b:Button>
                         </b:ButtonGroup>
                     </b:FormActions>
                 </b:Fieldset>

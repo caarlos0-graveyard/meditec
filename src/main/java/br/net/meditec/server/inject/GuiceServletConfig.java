@@ -5,7 +5,7 @@ import com.google.inject.Injector;
 import com.google.inject.servlet.GuiceServletContextListener;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class GuiceServletConfig extends GuiceServletContextListener {
 

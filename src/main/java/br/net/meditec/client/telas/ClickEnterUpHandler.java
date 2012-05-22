@@ -7,21 +7,21 @@ import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.event.dom.client.KeyUpHandler;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public abstract class ClickEnterUpHandler implements ClickHandler, KeyUpHandler {
 
-  public abstract void doSalvar();
+  public abstract void doAction();
 
   @Override
   public void onClick(ClickEvent event) {
-    doSalvar();
+    doAction();
   }
 
   @Override
   public void onKeyUp(KeyUpEvent event) {
     if (event.getNativeKeyCode() == KeyCodes.KEY_ENTER) {
-      doSalvar();
+      doAction();
     }
   }
 }

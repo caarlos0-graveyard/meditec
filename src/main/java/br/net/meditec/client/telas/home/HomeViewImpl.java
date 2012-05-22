@@ -8,7 +8,7 @@ import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewImpl;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class HomeViewImpl extends ViewImpl implements HomePresenter.HomeView {
 

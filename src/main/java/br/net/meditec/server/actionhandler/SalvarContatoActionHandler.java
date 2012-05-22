@@ -20,7 +20,7 @@ import br.net.meditec.shared.commands.SalvarContatoResult;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class SalvarContatoActionHandler
     implements ActionHandler<SalvarContatoAction, SalvarContatoResult> {
@@ -37,7 +37,7 @@ public class SalvarContatoActionHandler
   public SalvarContatoResult execute(SalvarContatoAction action, ExecutionContext context)
       throws ActionException {
 
-    Contato contato = null;
+    Contato contato;
     try {
       contato = dao.save(converter.toBean(action.getContato()));
     } catch (ConstraintViolationException cve) {

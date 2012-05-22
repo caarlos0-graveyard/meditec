@@ -3,19 +3,19 @@ package br.net.meditec.client.telas.principal;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.Timer;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 import com.github.gwtbootstrap.client.ui.Alert;
 import com.github.gwtbootstrap.client.ui.FluidContainer;
-import com.github.gwtbootstrap.client.ui.constants.AlertType;
 import com.gwtplatform.mvp.client.ViewImpl;
 
 import br.net.meditec.client.events.ClearMsgsEvent;
 import br.net.meditec.client.events.ShowMsgEvent;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class PrincipalViewImpl extends ViewImpl implements PrincipalPresenter.PrincipalView {
 
@@ -52,7 +52,7 @@ public class PrincipalViewImpl extends ViewImpl implements PrincipalPresenter.Pr
 
   @Override
   public void onShowMsg(ShowMsgEvent event) {
-    Alert a = new Alert();
+    final Alert a = new Alert();
     switch (event.getAlertType()) {
       case ERROR:
         a.setHeading("Erro!");
@@ -81,6 +81,18 @@ public class PrincipalViewImpl extends ViewImpl implements PrincipalPresenter.Pr
 
     a.setText(event.getMsg());
     msgs.add(a);
+
+    // ira remover a mensagem depois de 15 segundos.
+    new Timer() {
+      @Override
+      public void run() {
+        try {
+          msgs.remove(a);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    }.schedule(15000);
   }
 
   interface PrincipalViewImplUiBinder extends UiBinder<HTMLPanel, PrincipalViewImpl> {

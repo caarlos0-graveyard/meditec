@@ -14,7 +14,7 @@ import br.net.meditec.shared.commands.BuscarContatoResult;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class BuscarContatoActionHandler
     implements ActionHandler<BuscarContatoAction, BuscarContatoResult> {

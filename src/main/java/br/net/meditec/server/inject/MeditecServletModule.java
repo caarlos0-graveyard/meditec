@@ -7,7 +7,7 @@ import com.gwtplatform.dispatch.server.guice.DispatchServiceImpl;
 import com.gwtplatform.dispatch.shared.ActionImpl;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class MeditecServletModule extends ServletModule {
 

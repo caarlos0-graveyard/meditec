@@ -19,15 +19,12 @@ import java.util.Date;
 import br.net.meditec.client.telas.ClickEnterUpHandler;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class CadastroContatoViewImpl extends ViewImpl
     implements CadastroContatoPresenter.CadastroContatoView {
 
   private Widget w;
-
-//  @UiField
-//  Form form;
 
   @UiField
   TextBox nome;
@@ -52,6 +49,9 @@ public class CadastroContatoViewImpl extends ViewImpl
 
   @UiField
   Button novo;
+
+  @UiField
+  Button excluir;
 
   public CadastroContatoViewImpl() {
     w = ourUiBinder.createAndBindUi(this);
@@ -83,6 +83,11 @@ public class CadastroContatoViewImpl extends ViewImpl
   @Override
   public void addNovoHandler(ClickHandler handler) {
     novo.addClickHandler(handler);
+  }
+
+  @Override
+  public void addExcluirHandler(ClickHandler handler) {
+    excluir.addClickHandler(handler);
   }
 
   public HasValue<String> nome() {

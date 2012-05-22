@@ -9,7 +9,7 @@ import com.gwtplatform.mvp.client.proxy.TokenFormatter;
 import javax.inject.Inject;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public class MeditecPlaceManager extends PlaceManagerImpl {
 

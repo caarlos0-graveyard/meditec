@@ -12,18 +12,15 @@ import br.net.meditec.shared.dto.ContatoDTO;
  * @author Carlos A Becker
  */
 @GenDispatch(isSecure = false)
-public class SalvarContato {
+public class ExcluirContato {
 
   @In(1)
   ContatoDTO contato;
 
   @Out(1)
-  boolean ok;
+  List<String> mensagens;
 
   @Out(2)
-  List<String> mensagem;
-
-  @Out(3)
-  ContatoDTO contatoAtualizado;
+  boolean ok;
 
 }

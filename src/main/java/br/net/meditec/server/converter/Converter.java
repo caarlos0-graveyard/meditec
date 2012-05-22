@@ -7,7 +7,7 @@ import br.net.meditec.server.model.Bean;
 import br.net.meditec.shared.dto.DTO;
 
 /**
- * @author: Carlos A Becker
+ * @author Carlos A Becker
  */
 public abstract class Converter<B extends Bean, D extends DTO> {
 
