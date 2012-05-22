@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 import javax.inject.Inject;
 
-import br.net.meditec.server.converter.Converter;
+import br.net.meditec.server.converter.AbstractConverter;
 import br.net.meditec.server.dao.ContatoDao;
 import br.net.meditec.server.model.Contato;
 import br.net.meditec.shared.commands.ExcluirContatoAction;
@@ -16,17 +16,19 @@ import br.net.meditec.shared.commands.ExcluirContatoResult;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Exclui o Contato recebido por parametro.
+ *
  * @author Carlos A Becker
  */
 public class ExcluirContatoActionHandler
     implements ActionHandler<ExcluirContatoAction, ExcluirContatoResult> {
 
   private final ContatoDao dao;
-  private final Converter<Contato, ContatoDTO> converter;
+  private final AbstractConverter<Contato, ContatoDTO> abstractConverter;
 
   @Inject
-  public ExcluirContatoActionHandler(Converter<Contato, ContatoDTO> converter, ContatoDao dao) {
-    this.converter = converter;
+  public ExcluirContatoActionHandler(AbstractConverter<Contato, ContatoDTO> abstractConverter, ContatoDao dao) {
+    this.abstractConverter = abstractConverter;
     this.dao = dao;
   }
 
@@ -35,7 +37,7 @@ public class ExcluirContatoActionHandler
       throws ActionException {
 
     try {
-      dao.remove(converter.toBean(action.getContato()));
+      dao.remove(abstractConverter.toBean(action.getContato()));
     } catch (Exception e) {
       e.printStackTrace();
       return new ExcluirContatoResult(

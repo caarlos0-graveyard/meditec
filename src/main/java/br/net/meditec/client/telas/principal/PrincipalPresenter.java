@@ -21,12 +21,15 @@ import br.net.meditec.client.events.ShowMsgEvent;
 import br.net.meditec.client.telas.home.HomePresenter;
 
 /**
+ * Presenter com o "esqueleto" da tela da aplicação.
+ *
  * @author Carlos A Becker
  */
 public class PrincipalPresenter
     extends Presenter<PrincipalPresenter.PrincipalView, PrincipalPresenter.PrincipalProxy>
     implements ShowMsgEvent.ShowMsgHandler, ClearMsgsEvent.ClearMsgsHandler {
 
+  // injeto a homepresenter, para exibí-la por default quando esta presenter é exibida.
   private final HomePresenter home;
 
   @Inject
@@ -41,6 +44,9 @@ public class PrincipalPresenter
     RevealRootContentEvent.fire(this, this);
   }
 
+  /**
+   * ContentSlot para o conteúdo das outras presenters.
+    */
   @ContentSlot
   public static final
   GwtEvent.Type<RevealContentHandler<?>>

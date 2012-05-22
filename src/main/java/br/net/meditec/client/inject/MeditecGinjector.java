@@ -17,6 +17,8 @@ import br.net.meditec.client.telas.principal.PrincipalPresenter;
 
 
 /**
+ * Injetor do GIN.
+ *
  * @author Carlos A Becker
  */
 @GinModules({DispatchAsyncModule.class, PresenterModule.class})

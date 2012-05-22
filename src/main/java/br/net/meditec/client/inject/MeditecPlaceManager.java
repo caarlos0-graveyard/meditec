@@ -9,6 +9,8 @@ import com.gwtplatform.mvp.client.proxy.TokenFormatter;
 import javax.inject.Inject;
 
 /**
+ * PlaceManager personalizado, com o tratamento para a @DefaultPlace.
+ *
  * @author Carlos A Becker
  */
 public class MeditecPlaceManager extends PlaceManagerImpl {

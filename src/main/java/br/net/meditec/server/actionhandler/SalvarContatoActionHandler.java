@@ -12,7 +12,7 @@ import javax.inject.Inject;
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 
-import br.net.meditec.server.converter.Converter;
+import br.net.meditec.server.converter.AbstractConverter;
 import br.net.meditec.server.dao.ContatoDao;
 import br.net.meditec.server.model.Contato;
 import br.net.meditec.shared.commands.SalvarContatoAction;
@@ -20,17 +20,19 @@ import br.net.meditec.shared.commands.SalvarContatoResult;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Salva o contato no banco, e retorna sua versão atualizada.
+ *
  * @author Carlos A Becker
  */
 public class SalvarContatoActionHandler
     implements ActionHandler<SalvarContatoAction, SalvarContatoResult> {
 
-  private final Converter<Contato, ContatoDTO> converter;
+  private final AbstractConverter<Contato, ContatoDTO> abstractConverter;
   private final ContatoDao dao;
 
   @Inject
-  public SalvarContatoActionHandler(Converter<Contato, ContatoDTO> converter, ContatoDao dao) {
-    this.converter = converter;
+  public SalvarContatoActionHandler(AbstractConverter<Contato, ContatoDTO> abstractConverter, ContatoDao dao) {
+    this.abstractConverter = abstractConverter;
     this.dao = dao;
   }
 
@@ -39,7 +41,7 @@ public class SalvarContatoActionHandler
 
     Contato contato;
     try {
-      contato = dao.save(converter.toBean(action.getContato()));
+      contato = dao.save(abstractConverter.toBean(action.getContato()));
     } catch (ConstraintViolationException cve) {
       List<String> msgs = new ArrayList<String>();
       for (ConstraintViolation<?> violation : cve.getConstraintViolations()) {
@@ -52,7 +54,7 @@ public class SalvarContatoActionHandler
     }
 
     return new SalvarContatoResult(true, Arrays.asList("Salvo com sucesso!"),
-                                   converter.toDTO(contato));
+                                   abstractConverter.toDTO(contato));
   }
 
   public Class<SalvarContatoAction> getActionType() {

@@ -3,6 +3,8 @@ package br.net.meditec.shared.dto;
 import java.util.Date;
 
 /**
+ * DTO específico de Contato.
+ *
  * @author Carlos A Becker
  */
 public class ContatoDTO implements DTO {
@@ -23,7 +25,7 @@ public class ContatoDTO implements DTO {
     this.sobrenome = sobrenome;
     this.numero = numero;
     this.email = email;
-    this.dataNascimento = dataNascimento;
+    this.dataNascimento = (Date) dataNascimento.clone();
   }
 
   public ContatoDTO(Long id, String email, String numero, String sobrenome, String nome,
@@ -33,7 +35,7 @@ public class ContatoDTO implements DTO {
     this.sobrenome = sobrenome;
     this.nome = nome;
     this.id = id;
-    this.dataNascimento = dataNascimento;
+    this.dataNascimento = (Date) dataNascimento.clone();
   }
 
   public void setId(Long id) {
@@ -77,11 +79,11 @@ public class ContatoDTO implements DTO {
   }
 
   public Date getDataNascimento() {
-    return dataNascimento;
+    return (Date) dataNascimento.clone();
   }
 
   public void setDataNascimento(Date dataNascimento) {
-    this.dataNascimento = dataNascimento;
+    this.dataNascimento = (Date) dataNascimento.clone();
   }
 
   @Override

@@ -14,6 +14,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
+ * Binding Annotation que define a Place padrão da aplicação.
+ *
  * @author Carlos A Becker
  */
 @Retention(RetentionPolicy.RUNTIME)

@@ -4,10 +4,15 @@ import br.net.meditec.server.model.Contato;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Converter específico de contato.
+ *
  * @author Carlos A Becker
  */
-public class ContatoConverter extends Converter<Contato, ContatoDTO> {
+public class ContatoAbstractConverter extends AbstractConverter<Contato, ContatoDTO> {
 
+  /**
+   * {@inheritDoc}
+   */
   @Override
   public Contato toBean(ContatoDTO dto) {
     return new Contato(dto.getId(), dto.getEmail(), dto.getNumero(), dto.getSobrenome(),
@@ -15,6 +20,9 @@ public class ContatoConverter extends Converter<Contato, ContatoDTO> {
 
   }
 
+  /**
+   * {@inheritDoc}
+   */
   @Override
   public ContatoDTO toDTO(Contato bean) {
     return new ContatoDTO(bean.getId(), bean.getEmail(), bean.getNumero(), bean.getSobrenome(),

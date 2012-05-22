@@ -13,6 +13,8 @@ import br.net.meditec.client.telas.principal.PrincipalPresenter;
 import br.net.meditec.client.telas.principal.PrincipalViewImpl;
 
 /**
+ * GINModule com o binding de todas as presenters da aplicação.
+ *
  * @author Carlos A Becker
  */
 public class PresenterModule extends AbstractPresenterModule {

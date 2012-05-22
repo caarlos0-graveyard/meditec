@@ -8,11 +8,17 @@ import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewImpl;
 
 /**
+ * Implementacao da View da tela principal.
+ *
  * @author Carlos A Becker
  */
 public class HomeViewImpl extends ViewImpl implements HomePresenter.HomeView {
 
   private Widget w;
+
+  public HomeViewImpl() {
+    w = ourUiBinder.createAndBindUi(this);
+  }
 
   public Widget asWidget() {
     return w;
@@ -23,9 +29,4 @@ public class HomeViewImpl extends ViewImpl implements HomePresenter.HomeView {
   }
 
   private static HomeViewImplUiBinder ourUiBinder = GWT.create(HomeViewImplUiBinder.class);
-
-  public HomeViewImpl() {
-    w = ourUiBinder.createAndBindUi(this);
-
-  }
 }

@@ -15,6 +15,8 @@ import br.net.meditec.client.events.ClearMsgsEvent;
 import br.net.meditec.client.events.ShowMsgEvent;
 
 /**
+ * Implementação da View da tela principal.
+ *
  * @author Carlos A Becker
  */
 public class PrincipalViewImpl extends ViewImpl implements PrincipalPresenter.PrincipalView {
@@ -35,6 +37,11 @@ public class PrincipalViewImpl extends ViewImpl implements PrincipalPresenter.Pr
     return w;
   }
 
+  /**
+   * Aqui é feita a "mágica" com o content slot da presenter.
+   * @param slot
+   * @param content
+   */
   @Override
   public void setInSlot(Object slot, Widget content) {
     if (slot == PrincipalPresenter.CONTEUDO) {

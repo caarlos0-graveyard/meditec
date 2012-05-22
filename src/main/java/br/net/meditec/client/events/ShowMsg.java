@@ -5,6 +5,9 @@ import com.gwtplatform.dispatch.annotation.GenEvent;
 import com.gwtplatform.dispatch.annotation.In;
 
 /**
+ * Adiciona uma mensagem na tela.
+ * Tratado pela {@link br.net.meditec.client.telas.principal.PrincipalPresenter}
+ *
  * @author Carlos A Becker
  */
 @GenEvent

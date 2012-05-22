@@ -1,6 +1,8 @@
 package br.net.meditec.client.inject;
 
 /**
+ * NameTokens da app.
+ *
  * @author Carlos A Becker
  */
 public class Tokens {

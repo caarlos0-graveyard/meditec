@@ -7,6 +7,8 @@ import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.event.dom.client.KeyUpHandler;
 
 /**
+ * Handler personalizado: ClickHandler e OnEnter Handler :)
+ *
  * @author Carlos A Becker
  */
 public abstract class ClickEnterUpHandler implements ClickHandler, KeyUpHandler {

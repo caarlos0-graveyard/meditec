@@ -15,6 +15,8 @@ import br.net.meditec.client.inject.Tokens;
 import br.net.meditec.client.telas.principal.PrincipalPresenter;
 
 /**
+ * Presenter inicial da app.
+ *
  * @author Carlos A Becker
  */
 public class HomePresenter extends Presenter<HomePresenter.HomeView, HomePresenter.HomeProxy> {

@@ -12,6 +12,8 @@ import br.net.meditec.shared.commands.LoadContatoAction;
 import br.net.meditec.shared.commands.SalvarContatoAction;
 
 /**
+ * Modulo com os binds das Actions para seus respectivos ActionHandlers.
+ *
  * @author Carlos A Becker
  */
 public class MeditecHandlerModule extends HandlerModule {

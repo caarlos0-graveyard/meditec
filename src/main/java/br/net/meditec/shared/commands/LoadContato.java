@@ -7,6 +7,8 @@ import com.gwtplatform.dispatch.annotation.Out;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Carregar contatos pelo ID.
+ *
  * @author Carlos A Becker
  */
 @GenDispatch(isSecure = false)

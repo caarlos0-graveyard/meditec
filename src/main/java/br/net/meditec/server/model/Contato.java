@@ -14,6 +14,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 /**
+ * Bean de Contato.
+ *
  * @author Carlos A Becker
  */
 @Entity
@@ -47,7 +49,7 @@ public class Contato implements Bean {
     this.sobrenome = sobrenome;
     this.numero = numero;
     this.email = email;
-    this.dataNascimento = dataNascimento;
+    this.dataNascimento = (Date) dataNascimento.clone();
   }
 
   public Contato(Long id, String email, String numero, String sobrenome, String nome,
@@ -57,7 +59,7 @@ public class Contato implements Bean {
     this.sobrenome = sobrenome;
     this.nome = nome;
     this.id = id;
-    this.dataNascimento = dataNascimento;
+    this.dataNascimento = (Date) dataNascimento.clone();
   }
 
   public void setId(Long id) {
@@ -98,11 +100,11 @@ public class Contato implements Bean {
   }
 
   public Date getDataNascimento() {
-    return dataNascimento;
+    return (Date) dataNascimento.clone();
   }
 
   public void setDataNascimento(Date dataNascimento) {
-    this.dataNascimento = dataNascimento;
+    this.dataNascimento = (Date) dataNascimento.clone();
   }
 
   @Override

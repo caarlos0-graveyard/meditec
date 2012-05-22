@@ -9,6 +9,8 @@ import java.util.List;
 import br.net.meditec.shared.dto.ContatoDTO;
 
 /**
+ * Salvar Contatos.
+ *
  * @author Carlos A Becker
  */
 @GenDispatch(isSecure = false)
