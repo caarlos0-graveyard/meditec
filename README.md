@@ -2,6 +2,7 @@
 ## Produtividade no Desenvolvimento Web com GWT
 
 Documentação: http://caarlos0.github.com/meditec/
+Apresentação: http://www.slideshare.net/caarlos0/produtividade-no-desenvolvimento-web-com-gwt
 
 ### Download + Executar
 
