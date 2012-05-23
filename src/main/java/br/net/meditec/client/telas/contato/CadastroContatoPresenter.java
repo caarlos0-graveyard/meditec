@@ -171,12 +171,12 @@ public class CadastroContatoPresenter extends
             public void onSuccess(ExcluirContatoResult result) {
               if (result.isOk()) {
                 doNovo();
+                AtualizarListaDeContatosEvent.fire(CadastroContatoPresenter.this);
               }
               for (String msg : result.getMensagens()) {
                 ShowMsgEvent.fire(CadastroContatoPresenter.this, msg,
                                   result.isOk() ? AlertType.SUCCESS : AlertType.ERROR);
               }
-              AtualizarListaDeContatosEvent.fire(CadastroContatoPresenter.this);
             }
           });
     }

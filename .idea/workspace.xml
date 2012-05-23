@@ -6,7 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b000e43a-9729-4fa4-9329-29f3673ecbde" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meditec.iml" afterPath="$PROJECT_DIR$/meditec.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java" afterPath="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java" />
     </list>
     <ignored path="meditec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ContatoDTO.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContatoDTO.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="28" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
+            <state line="83" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.40223464">
               <folding />
             </state>
           </provider>
@@ -85,11 +88,20 @@
       <file leaf-file-name="CadastroContatoPresenter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="7" selection-start="3175" selection-end="3175" vertical-scroll-proportion="0.0">
+            <state line="203" column="0" selection-start="6843" selection-end="6843" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#3035#3173#0" expanded="true" />
                 <element signature="e#3166#3167#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcluirContatoActionHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/actionhandler/ExcluirContatoActionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="13" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,15 +130,6 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="64" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.7067039">
               <folding />
             </state>
           </provider>
@@ -185,14 +188,14 @@
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/LoadContato.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/SalvarContato.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/DTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoViewImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java" />
       </list>
     </option>
   </component>
@@ -1134,12 +1137,32 @@
     <option name="localTasksCounter" value="13" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="24" width="1370" height="746" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28762543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28762543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1153,12 +1176,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27954546" sideWeight="0.2257525" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24090908" sideWeight="0.7090301" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28636363" sideWeight="0.71237457" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2909699" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31438127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="98" y="124" width="1170" height="546" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1269,13 +1292,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="84" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/BuscarContato.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="2" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
@@ -1322,13 +1338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="28" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/DTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="2" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
@@ -1340,16 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="7" selection-start="3175" selection-end="3175" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3035#3173#0" expanded="true" />
-            <element signature="e#3166#3167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1376,6 +1375,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="1.2105263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="64" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
@@ -1383,9 +1389,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/actionhandler/ExcluirContatoActionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.7067039">
+        <state line="22" column="13" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/CadastroContatoPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="0" selection-start="6843" selection-end="6843" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3035#3173#0" expanded="true" />
+            <element signature="e#3166#3167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.40223464">
           <folding />
         </state>
       </provider>

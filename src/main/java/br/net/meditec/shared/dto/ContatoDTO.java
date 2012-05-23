@@ -79,7 +79,7 @@ public class ContatoDTO implements DTO {
   }
 
   public Date getDataNascimento() {
-    return (Date) dataNascimento.clone();
+    return dataNascimento != null ? (Date) dataNascimento.clone() : null;
   }
 
   public void setDataNascimento(Date dataNascimento) {
