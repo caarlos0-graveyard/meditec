@@ -5,7 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/br/net/meditec/server/inject/MeditecHandlerModule.java" line="4" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b000e43a-9729-4fa4-9329-29f3673ecbde" name="Default" comment="" />
+    <list default="true" id="b000e43a-9729-4fa4-9329-29f3673ecbde" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="meditec.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -124,7 +126,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="13" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.46089387">
+            <state line="45" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.7067039">
               <folding />
             </state>
           </provider>
@@ -1134,10 +1136,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="24" width="1370" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28762543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28762543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1383,7 +1385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="13" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.46089387">
+        <state line="45" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.7067039">
           <folding />
         </state>
       </provider>

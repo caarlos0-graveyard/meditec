@@ -2,7 +2,7 @@
 ## Produtividade no Desenvolvimento Web com GWT
 
 
-´´´
+
     Welcome to the light side of the source, young padawan.
 
     One step closer to learn something interesting you are...
@@ -43,7 +43,7 @@
                            \ `t  ._  /
                             "-.t-._:'
 
-´´´
+
 
 Documentação: http://caarlos0.github.com/meditec/
 
