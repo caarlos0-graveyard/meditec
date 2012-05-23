@@ -1,4 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ClearMsgsEvent.html" title="br.net.meditec.client.events.ClearMsgsEvent" alt="" coords="15,273,529,474"/>
-<area shape="rect" id="node2_1" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/GwtEvent.html" title="com.google.gwt.event.shared.GwtEvent" alt="" coords="117,11,427,213"/>
+<area shape="rect" id="node1_0" href="./ClearMsgsEvent.html" title="&lt;TABLE&gt;" alt="" coords="291,113,411,137"/>
+<area shape="rect" id="node7_1" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/HasHandlers.html" title="&lt;TABLE&gt;" alt="" coords="39,203,201,253"/>
+<area shape="rect" id="node9_2" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/GwtEvent/Type.html" title="&lt;TABLE&gt;" alt="" coords="246,210,455,246"/>
+<area shape="rect" id="node2_3" href="../telas/principal/PrincipalViewImpl.html" title="&lt;TABLE&gt;" alt="" coords="15,11,209,47"/>
+<area shape="rect" id="node3_4" href="../telas/principal/PrincipalPresenter.html" title="&lt;TABLE&gt;" alt="" coords="254,11,447,47"/>
+<area shape="rect" id="node4_5" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/GwtEvent.html" title="&lt;TABLE&gt;" alt="" coords="493,11,934,47"/>
 </map>

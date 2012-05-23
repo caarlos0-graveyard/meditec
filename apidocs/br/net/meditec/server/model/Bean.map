@@ -1,5 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Contato.html" title="br.net.meditec.server.model.Contato" alt="" coords="15,278,750,687"/>
-<area shape="rect" id="node2_1" href="./Bean.html" title="br.net.meditec.server.model.Bean" alt="" coords="317,113,448,218"/>
-<area shape="rect" id="node4_2" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="336,11,429,53"/>
+<area shape="rect" id="node1_0" href="../dao/AbstractDao.html" title="&lt;TABLE&gt;" alt="" coords="15,11,409,47"/>
+<area shape="rect" id="node3_1" href="./Bean.html" title="&lt;TABLE&gt;" alt="" coords="461,107,552,146"/>
+<area shape="rect" id="node2_2" href="./Contato.html" title="&lt;TABLE&gt;" alt="" coords="471,212,542,236"/>
+<area shape="rect" id="node4_3" href="../converter/AbstractConverter.html" title="&lt;TABLE&gt;" alt="" coords="455,11,1151,47"/>
 </map>

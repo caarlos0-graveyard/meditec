@@ -1,4 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ClearMsgsEvent.HasClearMsgsHandlers.html" title="br.net.meditec.client.events.ClearMsgsEvent.HasClearMsgsHandlers" alt="" coords="16,161,621,250"/>
-<area shape="rect" id="node2_1" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/HasHandlers.html" title="com.google.gwt.event.shared.HasHandlers" alt="" coords="203,11,435,101"/>
+<area shape="rect" id="node1_0" href="./ClearMsgsEvent.HasClearMsgsHandlers.html" title="&lt;TABLE&gt;" alt="" coords="33,121,199,159"/>
+<area shape="rect" id="node5_1" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/web/bindery/event/shared/HandlerRegistration.html" title="&lt;TABLE&gt;" alt="" coords="15,219,217,269"/>
+<area shape="rect" id="node2_2" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gwt/event/shared/HasHandlers.html" title="&lt;TABLE&gt;" alt="" coords="35,11,197,61"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./LoadContato.html" title="br.net.meditec.shared.commands.LoadContato" alt="" coords="15,11,190,101"/>
+<area shape="rect" id="node1_0" href="./LoadContato.html" title="&lt;TABLE&gt;" alt="" coords="37,17,139,41"/>
+<area shape="rect" id="node2_1" href="../dto/ContatoDTO.html" title="&lt;TABLE&gt;" alt="" coords="15,107,161,143"/>
 </map>

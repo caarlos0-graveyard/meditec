@@ -1,4 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ContatoDao.html" title="br.net.meditec.server.dao.ContatoDao" alt="" coords="74,241,403,330"/>
-<area shape="rect" id="node2_1" href="./AbstractDao.html" title="br.net.meditec.server.dao.AbstractDao" alt="" coords="15,11,463,181"/>
+<area shape="rect" id="node1_0" href="./ContatoDao.html" title="&lt;TABLE&gt;" alt="" coords="16,120,112,144"/>
+<area shape="rect" id="node2_1" href="./AbstractDao.html" title="&lt;TABLE&gt;" alt="" coords="42,17,257,41"/>
+<area shape="rect" id="node3_2" href="../model/Bean.html" title="&lt;TABLE&gt;" alt="" coords="157,107,312,157"/>
 </map>
