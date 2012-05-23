@@ -7,8 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b000e43a-9729-4fa4-9329-29f3673ecbde" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meditec.iml" afterPath="$PROJECT_DIR$/meditec.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="meditec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,15 +65,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SalvarContato.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/SalvarContato.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ContatoDTO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/dto/ContatoDTO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,10 +115,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="64" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.83113456">
+            <state line="23" column="64" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.16759777">
               <folding />
             </state>
           </provider>
@@ -179,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/model/Bean.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/server/model/Contato.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/package-info.java" />
@@ -195,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/net/meditec/client/telas/contato/ListaContatosViewImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1121,15 +1120,23 @@
       <created>1337736237898</created>
       <updated>1337736237898</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finalmente diagrama de classes">
+      <created>1337738441477</created>
+      <updated>1337738441477</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adicionando o link para a apresentação">
+      <created>1337738821604</created>
+      <updated>1337738821604</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="24" width="1370" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28762543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28762543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1193,7 +1200,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="testando javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando o link para a apresentação" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1213,6 +1220,8 @@
     <MESSAGE value="Adicionado readme, site, javadocs generation" />
     <MESSAGE value="adicionando javadocs." />
     <MESSAGE value="testando javadoc" />
+    <MESSAGE value="finalmente diagrama de classes" />
+    <MESSAGE value="adicionando o link para a apresentação" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1256,13 +1265,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="55" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/net/meditec/shared/commands/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="84" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
@@ -1372,7 +1374,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.83113456">
+        <state line="23" column="64" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.16759777">
           <folding />
         </state>
       </provider>
