@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ContatoDao.html" title="&lt;TABLE&gt;" alt="" coords="567,113,663,137"/>
-<area shape="rect" id="node2_1" href="./AbstractDao.html" title="&lt;TABLE&gt;" alt="" coords="15,17,230,41"/>
-<area shape="rect" id="node3_2" href="../actionhandler/LoadContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="275,11,469,47"/>
-<area shape="rect" id="node4_3" href="../actionhandler/BuscarContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="514,11,715,47"/>
-<area shape="rect" id="node5_4" href="../actionhandler/ExcluirContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="761,11,959,47"/>
-<area shape="rect" id="node6_5" href="../actionhandler/SalvarContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="1005,11,1203,47"/>
-</map>

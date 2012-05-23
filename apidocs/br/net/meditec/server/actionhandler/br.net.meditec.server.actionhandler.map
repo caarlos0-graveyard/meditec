@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./LoadContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="15,17,204,41"/>
-<area shape="rect" id="node2_1" href="./BuscarContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="249,17,450,41"/>
-<area shape="rect" id="node3_2" href="./ExcluirContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="495,17,694,41"/>
-<area shape="rect" id="node4_3" href="./SalvarContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="740,17,937,41"/>
-</map>

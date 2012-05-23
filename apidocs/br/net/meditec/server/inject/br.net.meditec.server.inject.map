@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./PersistenceModule.html" title="&lt;TABLE&gt;" alt="" coords="15,17,155,41"/>
-<area shape="rect" id="node2_1" href="./ConverterModule.html" title="&lt;TABLE&gt;" alt="" coords="201,17,327,41"/>
-<area shape="rect" id="node3_2" href="./MeditecServletModule.html" title="&lt;TABLE&gt;" alt="" coords="373,17,531,41"/>
-<area shape="rect" id="node4_3" href="./MeditecHandlerModule.html" title="&lt;TABLE&gt;" alt="" coords="577,17,741,41"/>
-<area shape="rect" id="node5_4" href="./GuiceServletConfig.html" title="&lt;TABLE&gt;" alt="" coords="786,17,923,41"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="../../events/AtualizarListaDeContatosEvent.html" title="&lt;TABLE&gt;" alt="" coords="231,223,443,259"/>
-<area shape="rect" id="node2_1" href="../../events/AtualizarListaDeContatosEvent.AtualizarListaDeContatosHandler.html" title="&lt;TABLE&gt;" alt="" coords="16,11,325,61"/>
-<area shape="rect" id="node3_2" href="./ListaContatosPresenter.html" title="&lt;TABLE&gt;" alt="" coords="374,127,543,151"/>
-<area shape="rect" id="node8_3" href="http://java.sun.com/j2se/1.4.2/docs/api/com/gwtplatform/dispatch/shared/DispatchAsync.html" title="&lt;TABLE&gt;" alt="" coords="489,216,671,267"/>
-<area shape="rect" id="node4_4" href="http://java.sun.com/j2se/1.4.2/docs/api/com/gwtplatform/mvp/client/Presenter.html" title="&lt;TABLE&gt;" alt="" coords="371,18,1122,54"/>
-</map>

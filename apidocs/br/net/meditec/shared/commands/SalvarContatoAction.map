@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./SalvarContatoAction.html" title="&lt;TABLE&gt;" alt="" coords="211,127,359,151"/>
-<area shape="rect" id="node2_1" href="../dto/ContatoDTO.html" title="&lt;TABLE&gt;" alt="" coords="213,217,358,253"/>
-<area shape="rect" id="node3_2" href="../../server/actionhandler/SalvarContatoActionHandler.html" title="&lt;TABLE&gt;" alt="" coords="16,18,213,54"/>
-<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/com/gwtplatform/dispatch/shared/Action.html" title="&lt;TABLE&gt;" alt="" coords="259,11,656,61"/>
-</map>
