@@ -8,7 +8,7 @@ import br.net.meditec.shared.dto.ContatoDTO;
  *
  * @author Carlos A Becker
  */
-public class ContatoAbstractConverter extends AbstractConverter<Contato, ContatoDTO> {
+public class ContatoConverter extends AbstractConverter<Contato, ContatoDTO> {
 
   /**
    * {@inheritDoc}
