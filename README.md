@@ -1,4 +1,4 @@
-[Meditec](http://caarlos0.github.com/meditec) [![Build Status](https://secure.travis-ci.org/caarlos0/meditec.png)](http://travis-ci.org/caarlos0/meditec)
+[Meditec](http://caarlos0.github.com/meditec) [![Build Status](https://secure.travis-ci.org/caarlos0/meditec.png?branch=master)](http://travis-ci.org/caarlos0/meditec)
 =================
 
 # Aplicação de Exemplo para o Minicurso do III Meditec

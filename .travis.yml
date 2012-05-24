@@ -1,4 +1,7 @@
 before_script:
   - psql -c 'create database meditec;' -U postgres
 
+after_script:
+  - mvn clean site -Ddependency.locations.enabled=false
+
 language: java
