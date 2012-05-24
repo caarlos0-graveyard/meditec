@@ -1,5 +1,5 @@
 before_script:
-  - sed -i 's/name="javax.persistence.jdbc.password" value="postgres"/"javax.persistence.jdbc.password" value=""/' src/main/resources/META-INF/persistence.xml
+  - sed -i 's/name="javax.persistence.jdbc.password" value="postgres"/"javax.persistence.jdbc.password" value="" /' src/main/resources/META-INF/persistence.xml
   - psql -c 'create database meditec;' -U postgres
 
 after_script:
