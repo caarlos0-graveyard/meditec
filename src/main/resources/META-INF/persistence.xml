@@ -5,6 +5,7 @@
     <persistence-unit name="meditec" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>br.net.meditec.server.model.Contato</class>
+        <class>br.net.meditec.server.model.Evento</class>
         <validation-mode>AUTO</validation-mode>
         <properties>
             <property name="javax.persistence.jdbc.url"

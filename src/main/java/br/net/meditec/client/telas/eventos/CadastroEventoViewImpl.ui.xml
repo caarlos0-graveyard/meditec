@@ -1,0 +1,28 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
+    <g:HTMLPanel>
+
+        <b:Section target="cadastroEvento">
+            <b:Well>
+                <b:Fieldset>
+                    <b:ControlGroup>
+                        <b:ControlLabel>Nome</b:ControlLabel>
+                        <b:Controls>
+                            <b:TextBox ui:field="nome"
+                                    placeholder="Nome do evento"
+                                    size="6"/>
+                        </b:Controls>
+                    </b:ControlGroup>
+                    <b:FormActions>
+                        <b:Button type="PRIMARY" icon="OK" ui:field="salvar">
+                            Salvar
+                        </b:Button>
+                    </b:FormActions>
+                </b:Fieldset>
+            </b:Well>
+
+        </b:Section>
+
+    </g:HTMLPanel>
+</ui:UiBinder>

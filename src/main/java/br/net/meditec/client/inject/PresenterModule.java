@@ -7,6 +7,8 @@ import br.net.meditec.client.telas.contato.CadastroContatoPresenter;
 import br.net.meditec.client.telas.contato.CadastroContatoViewImpl;
 import br.net.meditec.client.telas.contato.ListaContatosPresenter;
 import br.net.meditec.client.telas.contato.ListaContatosViewImpl;
+import br.net.meditec.client.telas.eventos.CadastroEventoPresenter;
+import br.net.meditec.client.telas.eventos.CadastroEventoViewImpl;
 import br.net.meditec.client.telas.home.HomePresenter;
 import br.net.meditec.client.telas.home.HomeViewImpl;
 import br.net.meditec.client.telas.principal.PrincipalPresenter;
@@ -38,6 +40,13 @@ public class PresenterModule extends AbstractPresenterModule {
 
     bindPresenter(ListaContatosPresenter.class, ListaContatosPresenter.ListaContatosView.class,
                   ListaContatosViewImpl.class, ListaContatosPresenter.ListaContatosProxy.class);
+
+
+    bindPresenter(CadastroEventoPresenter.class,
+                  CadastroEventoPresenter.CadastroEventoView.class,
+                  CadastroEventoViewImpl.class,
+                  CadastroEventoPresenter.CadastroEventoProxy.class);
+
   }
 
 }

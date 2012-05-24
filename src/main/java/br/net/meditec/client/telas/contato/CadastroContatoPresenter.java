@@ -133,7 +133,8 @@ public class CadastroContatoPresenter extends
    */
   private void doSalvar() {
     populaContato();
-    dispatcher.execute(new SalvarContatoAction(contato), new AsyncCallback<SalvarContatoResult>() {
+    dispatcher.execute(new SalvarContatoAction(contato),
+                       new AsyncCallback<SalvarContatoResult>() {
       @Override
       public void onFailure(Throwable caught) {
         ShowMsgEvent.fire(CadastroContatoPresenter.this, "Erro: " + caught.getLocalizedMessage(),

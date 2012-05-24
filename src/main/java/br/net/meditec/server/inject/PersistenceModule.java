@@ -4,6 +4,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.persist.jpa.JpaPersistModule;
 
 import br.net.meditec.server.dao.ContatoDao;
+import br.net.meditec.server.dao.EventoDao;
 
 /**
  * Módulo de persistência da aplicação.
@@ -19,5 +20,6 @@ public class PersistenceModule extends AbstractModule {
 
     // dou bind nos daos.
     bind(ContatoDao.class);
+    bind(EventoDao.class);
   }
 }
