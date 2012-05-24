@@ -1,4 +1,5 @@
 before_script:
+  - sed -i 's/postgres//' src/main/resources/META-INF/persistence.xml
   - psql -c 'create database meditec;' -U postgres
 
 # after_script:
