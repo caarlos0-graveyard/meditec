@@ -3,10 +3,13 @@ package br.net.meditec.client.telas.eventos;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.Widget;
 
+import com.github.gwtbootstrap.client.ui.Button;
+import com.github.gwtbootstrap.client.ui.TextBox;
 import com.gwtplatform.mvp.client.ViewImpl;
 
 /**
@@ -17,17 +20,24 @@ public class CadastroEventoViewImpl extends ViewImpl
 
   private Widget w;
 
+  @UiField
+  TextBox nome;
+
+  @UiField
+  Button salvar;
+
   public CadastroEventoViewImpl() {
     w = ourUiBinder.createAndBindUi(this);
   }
 
   @Override
   public HasValue<String> nome() {
-    return null;
+    return nome;
   }
 
   @Override
   public void addSalvarHandler(ClickHandler handler) {
+    salvar.addClickHandler(handler);
   }
 
   @Override

@@ -10,15 +10,16 @@
                         <b:NavLink href="#cadastroContato">Cadastro</b:NavLink>
                         <b:NavLink href="#consultaContato">Consulta</b:NavLink>
                     </b:Dropdown>
+                    <b:NavLink href="#cadastroEvento">Cadastrar Evento</b:NavLink>
                 </b:Nav>
                 <b:Nav alignment="RIGHT">
                     <b:Dropdown text="Sobre">
-                        <b:NavLink href="https://github.com/caarlos0/meditec">Source</b:NavLink>
-                        <b:NavLink href="http://caarlos0.github.com/meditec/">Maven Site</b:NavLink>
-                        <b:NavLink href="http://caarlos0.github.com/meditec/apidocs/index.html">
+                        <b:NavLink icon="BULLHORN" href="https://github.com/caarlos0/meditec">Source</b:NavLink>
+                        <b:NavLink icon="PICTURE" href="http://caarlos0.github.com/meditec/">Maven Site</b:NavLink>
+                        <b:NavLink icon="ALIGN_JUSTIFY" href="http://caarlos0.github.com/meditec/apidocs/index.html">
                             Javadocs
                         </b:NavLink>
-                        <b:NavLink
+                        <b:NavLink icon="FILM"
                                 href="http://www.slideshare.net/caarlos0/produtividade-no-desenvolvimento-web-com-gwt">
                             Slides da Apresentação
                         </b:NavLink>

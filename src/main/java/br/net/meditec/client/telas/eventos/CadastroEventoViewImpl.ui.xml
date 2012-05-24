@@ -5,17 +5,20 @@
 
         <b:Section target="cadastroEvento">
             <b:Well>
+                <b:Heading size="1" subtext="cadastre seus eventos.">Consulta de
+                    Eventos
+                </b:Heading>
                 <b:Fieldset>
                     <b:ControlGroup>
                         <b:ControlLabel>Nome</b:ControlLabel>
                         <b:Controls>
                             <b:TextBox ui:field="nome"
-                                    placeholder="Nome do evento"
-                                    size="6"/>
+                                       placeholder="Nome do evento"
+                                       size="6"/>
                         </b:Controls>
                     </b:ControlGroup>
                     <b:FormActions>
-                        <b:Button type="PRIMARY" icon="OK" ui:field="salvar">
+                        <b:Button type="PRIMARY" icon="OK" ui:field="salvar" iconColor="WHITE">
                             Salvar
                         </b:Button>
                     </b:FormActions>
