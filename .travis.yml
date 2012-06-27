@@ -5,4 +5,7 @@ before_script:
 # after_script:
 #   - mvn clean site -Ddependency.locations.enabled=false -DskipTests=true
 
+jdk:
+  - oraclejdk7
+
 language: java
