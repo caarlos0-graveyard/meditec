@@ -1,6 +1,6 @@
 before_script:
   - sed -i 's/name="javax.persistence.jdbc.password" value=".*"/name="javax.persistence.jdbc.password" value=""/' src/main/resources/META-INF/persistence.xml
-  - psql -c 'create database meditec;' -U postgres
+  - mysql -e 'create database meditec;' -u root
 
 # after_script:
 #   - mvn clean site -Ddependency.locations.enabled=false -DskipTests=true
