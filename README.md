@@ -48,9 +48,7 @@
 
 
 
-Documentação: http://caarlos0.github.com/meditec/
-
-Apresentação: http://www.slideshare.net/caarlos0/produtividade-no-desenvolvimento-web-com-gwt
+[Documentação](http://caarlos0.github.com/meditec/) | [Apresentação](https://speakerdeck.com/u/caarlos0/p/produtividade-no-desenvolvimento-web-com-gwt)
 
 ### Download + Executar
 
