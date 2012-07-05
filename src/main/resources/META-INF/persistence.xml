@@ -8,11 +8,10 @@
         <class>br.net.meditec.server.model.Evento</class>
         <validation-mode>AUTO</validation-mode>
         <properties>
-            <property name="javax.persistence.jdbc.url"
-                      value="jdbc:postgresql://127.0.0.1:5432/meditec"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/meditec"/>
             <property name="javax.persistence.jdbc.password" value=""/>
-            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="eclipselink.ddl-generation" value="create-tables"/>
         </properties>
     </persistence-unit>

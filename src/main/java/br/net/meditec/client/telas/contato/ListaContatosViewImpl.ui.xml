@@ -10,13 +10,12 @@
             <hr />
             <b:AppendButton>
                 <b:TextBox ui:field="txt_pesquisar" size="6" placeholder="Pesquisar..."/>
-                <b:Button text="" type="PRIMARY" ui:field="bt_pesquisar" icon="SEARCH"
-                          iconColor="WHITE"/>
+                <b:Button text="" type="PRIMARY" ui:field="bt_pesquisar" icon="SEARCH"/>
             </b:AppendButton>
             <hr />
             <b:ButtonToolbar>
-                <b:Button ui:field="editar" type="PRIMARY" icon="EDIT" iconColor="WHITE">Editar</b:Button>
-                <b:Button ui:field="excluir" type="DANGER" icon="TRASH" iconColor="WHITE">Excluir</b:Button>
+                <b:Button ui:field="editar" type="PRIMARY" icon="EDIT">Editar</b:Button>
+                <b:Button ui:field="excluir" type="DANGER" icon="TRASH">Excluir</b:Button>
             </b:ButtonToolbar>
             <cv:CellTable ui:field="tabela"/>
             <cv:SimplePager location="CENTER" ui:field="paginador"/>

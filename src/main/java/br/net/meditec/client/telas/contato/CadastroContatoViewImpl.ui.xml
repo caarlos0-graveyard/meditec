@@ -55,12 +55,12 @@
                     </b:ControlGroup>
                     <b:FormActions>
                         <b:ButtonGroup>
-                            <b:Button ui:field="salvar" type="PRIMARY" icon="OK" iconColor="WHITE">
+                            <b:Button ui:field="salvar" type="PRIMARY" icon="OK">
                                 Salvar
                             </b:Button>
                             <b:Button ui:field="cancelar" icon="BACKWARD">Cancelar</b:Button>
                             <b:Button ui:field="novo" icon="FILE">Novo</b:Button>
-                            <b:Button ui:field="excluir" type="DANGER" icon="TRASH" iconColor="WHITE">Excluir</b:Button>
+                            <b:Button ui:field="excluir" type="DANGER" icon="TRASH">Excluir</b:Button>
                         </b:ButtonGroup>
                     </b:FormActions>
                 </b:Fieldset>

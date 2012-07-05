@@ -18,7 +18,7 @@
                         </b:Controls>
                     </b:ControlGroup>
                     <b:FormActions>
-                        <b:Button type="PRIMARY" icon="OK" ui:field="salvar" iconColor="WHITE">
+                        <b:Button type="PRIMARY" icon="OK" ui:field="salvar">
                             Salvar
                         </b:Button>
                     </b:FormActions>
